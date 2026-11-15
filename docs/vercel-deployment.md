@@ -1,4 +1,4 @@
-# Vercel deployment — 14 November 2026
+# Vercel deployment — 15 November 2026
 
 ## Live services
 
@@ -11,15 +11,15 @@ Both projects were created in the authenticated `nexus-f8e7` Vercel scope. Produ
 
 | Project | Deployment ID | Result |
 |---|---|---|
-| flame-intelligence | dpl_DDuCqiwEnrcLGaSaiNBU6UgKY6tD | Production alias active |
-| flame-intelligence-api | dpl_aAkNA3MpZjEoEFTRYwkGrdBZTKhJ | Production alias active |
+| flame-intelligence | dpl_Feye7UvbvTF27BDqBzjarYqJnzZf | READY, production alias active |
+| flame-intelligence-api | dpl_6ceBuRmiAjFDxemx3UEWVVfCtHLT | READY, production alias active |
 
 No credentials are committed. Local `.vercel` project links are ignored. Frontend `FLAME_API_ORIGIN` is saved in the project environment and points to the backend production alias. The browser uses `/service/api/*`; Next.js rewrites these requests server-side to the API, avoiding a hardcoded localhost endpoint and cross-origin browser requests. Production and preview builds require this origin. Optional `NEXT_PUBLIC_API_BASE_URL` remains available for explicit local overrides.
 
 ## Verification performed
 
-* The complete backend suite passed **64 tests** after the runtime adaptation. The final storage-mode addition passed five API/runtime tests.
-* Frontend TypeScript checking passed; Vercel's production Next.js build completed successfully.
+* The complete backend suite passed **64 tests** locally and in GitHub Actions on Linux. Backend evaluation and dependency audit passed in GitHub Actions.
+* All **42 browser tests** passed in GitHub Actions. Frontend production build and dependency audit passed there, and Vercel's production Next.js build completed successfully.
 * Live anonymous HTTPS requests returned HTTP 200 for readiness and persisted investigations.
 * Live Chrome verified proxied health/readiness, **20 investigations**, **40 sources**, search/detail, mission ranking, source-complete report download with SHA-256, question → original evidence passage, and published analytics.
 * No browser page errors occurred during these checks. Actual results: [`qa/vercel-live-checks.json`](../qa/vercel-live-checks.json). Screenshot: [`qa/vercel-live-overview.png`](../qa/vercel-live-overview.png).
@@ -35,26 +35,33 @@ It requires installed Playwright dependencies and Chrome on Windows, or Playwrig
 
 ## Redeploy
 
-Use the authenticated Vercel CLI from the corresponding linked directory:
+Both projects now use the GitHub repository layout: root directory `frontend` for `flame-intelligence`, and `backend` for `flame-intelligence-api`. Node.js is pinned to 22.x. Run the authenticated Vercel CLI from the **repository root**, linking the project to deploy:
 
 ```powershell
-cd backend
+npx --yes vercel@65.15.0 link --project flame-intelligence-api --scope nexus-f8e7 --yes
 npx --yes vercel@65.15.0 deploy --prod --yes
 ```
 
 ```powershell
-cd frontend
+npx --yes vercel@65.15.0 link --project flame-intelligence --scope nexus-f8e7 --yes
 npx --yes vercel@65.15.0 deploy --prod --yes
 ```
 
-On a new checkout, use `vercel link --project flame-intelligence-api` in `backend`, and `vercel link --project flame-intelligence` in `frontend`, selecting the existing `nexus-f8e7` scope. Reuse these existing projects rather than creating duplicate projects.
+Reuse the existing projects rather than creating duplicate projects. Do not deploy from the subdirectories after setting these root directories. Root `.vercelignore` excludes secrets, local databases, original PDFs, dependency caches and QA artifacts from CLI uploads.
+
+## GitHub
+
+The complete tracked project is published to the private repository [hvmdvvn/flame-intelligence](https://github.com/hvmdvvn/flame-intelligence), branch `main`. The initial Git upload repeatedly failed with HTTP 408; GitHub API uploads preserved every tracked file and verified their Git object hashes. Local `main` tracks `origin/main`.
+
+Direct production deployment through the CLI works. Automatic GitHub-to-Vercel deployment is pending Vercel access to this private repository; both `vercel git connect` attempts were rejected by Vercel. Grant the Vercel GitHub app access to the repository, then run from the repository root:
+
+```powershell
+npx --yes vercel@65.15.0 git connect https://github.com/hvmdvvn/flame-intelligence.git --project flame-intelligence-api --scope nexus-f8e7 --yes
+npx --yes vercel@65.15.0 git connect https://github.com/hvmdvvn/flame-intelligence.git --project flame-intelligence --scope nexus-f8e7 --yes
+```
 
 ## Storage boundary
 
 Vercel serves a copy of the bundled, attributed research corpus. The backend copies JSON seeds into temporary writable storage and rebuilds SQLite there. `/api/health` and `/api/ready` disclose `storage_mode: ephemeral_seed`. This state is disposable and is not shared between function instances. Original local PDFs, local SQLite databases, secrets and quarantined files are excluded from uploads.
 
 The hosted service supports corpus search, inspection, deterministic rankings, analytics and report generation. Durable authorized imports continue to require the local persistent installation or a future external database/object-storage integration. No durable cloud ingestion or predictive model is claimed. See [backend runtime details](vercel-backend.md).
-
-## Local services
-
-The task also started the local frontend at http://127.0.0.1:3000 and backend at http://127.0.0.1:8000. Both returned successful readiness/page responses before handoff. They remain running for local use until their processes or the machine are stopped.

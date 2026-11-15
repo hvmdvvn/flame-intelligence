@@ -6,6 +6,8 @@ Independent research software. Not NASA-endorsed; does not certify fire safety o
 
 Live application: **https://flame-intelligence.vercel.app**. See [Vercel deployment and storage limits](docs/vercel-deployment.md). The hosted version serves the published corpus; durable dataset imports use the local installation.
 
+Source repository: [hvmdvvn/flame-intelligence](https://github.com/hvmdvvn/flame-intelligence) (private, branch `main`). Backend API: <https://flame-intelligence-api.vercel.app/docs>.
+
 ## Run locally
 
 Python 3.12 and Node.js 22 are recommended. From the repository root:

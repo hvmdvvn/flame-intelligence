@@ -45,8 +45,13 @@ try {
   checks.push({workflow:"mission ranking and source-complete scientific report",passed:true,report_sha256:report.reproducibility_sha256});
   await page.goto("/ask");
   await page.getByLabel("Scientific question").fill("How does confinement affect flame spread in microgravity?");
-  await page.getByRole("button",{name:"RETRIEVE EVIDENCE"}).click();
-  await page.getByRole("link",{name:"OPEN THE PASSAGE"}).first().click();
+  const answerPromise = page.waitForResponse(response => response.url().includes("/service/api/ask") && response.request().method() === "POST");
+  await page.getByRole("button",{name:/Retrieve evidence/i}).click();
+  const answerResponse = await answerPromise;
+  assert.equal(answerResponse.status(),200,"research assistant response");
+  const answer = await answerResponse.json();
+  assert.ok(answer.reported.length > 0,"source-reported findings");
+  await page.getByRole("link",{name:/^Open passage/i}).first().click();
   await page.locator("mark.quote").waitFor();
   checks.push({workflow:"research question and cited evidence inspector",passed:true});
   await page.goto("/analytics");

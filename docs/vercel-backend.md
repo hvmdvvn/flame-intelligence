@@ -5,7 +5,8 @@ The backend is a separate Vercel project rooted at `backend/`. Vercel discovers 
 Deploy from the repository root with an authenticated Vercel CLI:
 
 ```powershell
-vercel deploy backend --prod --yes
+vercel link --project flame-intelligence-api --scope nexus-f8e7 --yes
+vercel deploy --prod --yes
 ```
 
 Retain the resulting backend HTTPS origin, then set frontend `FLAME_API_ORIGIN` to it. The frontend's server-side rewrite forwards `/service/*` to the backend; the browser uses `/service/api/*`. Leave `NEXT_PUBLIC_API_BASE_URL` unset to use this same-origin path. Keep the operator token unset for a public read-only research deployment, and configure any LLM credentials only as backend server environment variables. No credential is required for source search and deterministic analysis.
