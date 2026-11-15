@@ -11,8 +11,10 @@ Both projects were created in the authenticated `nexus-f8e7` Vercel scope. Produ
 
 | Project | Deployment ID | Result |
 |---|---|---|
-| flame-intelligence | dpl_Feye7UvbvTF27BDqBzjarYqJnzZf | READY, production alias active |
-| flame-intelligence-api | dpl_6ceBuRmiAjFDxemx3UEWVVfCtHLT | READY, production alias active |
+| flame-intelligence | dpl_777SJVSGnFt7r3sLgs5x2oQiYPes | READY, production alias active |
+| flame-intelligence-api | dpl_7wkiPS5tbwAx6DJu1Ror7HCzvsQD | READY, production alias active |
+
+Both services were redeployed from application source revision `c26937702af66afac780f153decfaf10aa21fb7b` on 15 November 2026. The frontend and backend production aliases above point to these deployments.
 
 No credentials are committed. Local `.vercel` project links are ignored. Frontend `FLAME_API_ORIGIN` is saved in the project environment and points to the backend production alias. The browser uses `/service/api/*`; Next.js rewrites these requests server-side to the API, avoiding a hardcoded localhost endpoint and cross-origin browser requests. Production and preview builds require this origin. Optional `NEXT_PUBLIC_API_BASE_URL` remains available for explicit local overrides.
 
