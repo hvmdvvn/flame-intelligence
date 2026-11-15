@@ -1,0 +1,353 @@
+{
+  "corpus_version": "2026-11-05T18:58:48+00:00",
+  "built_at": "2026-11-05T18:58:48+00:00",
+  "limitations": [
+    "PSI repository page returned HTTP 200 (https://psi.nasa.gov/physci/repo/). No stable public document API was used, so this corpus contains NTRS records only. No PSI metadata was guessed.",
+    "Running headers and footers may remain in extracted page text.",
+    "Pages flagged possible_missing_spaces are stored for reading and excluded from retrieval.",
+    "Verified comparison rows are entered only after a page check. Ingest does not invent measurements."
+  ],
+  "papers": [
+    {
+      "paper_id": "ntrs:20205004657",
+      "source": "ntrs",
+      "source_record_id": "20205004657",
+      "title": "Effects of Confinement on Flame Spread in Microgravity",
+      "authors": [
+        "Yanjun Li",
+        "Ya-Ting T Liao",
+        "Paul V Ferkul",
+        "Michael C Johnston",
+        "Charles Bunnell"
+      ],
+      "year": 2021,
+      "abstract": "Solid fuel combustion experiments aboard the ISS examine the effects of confinement on a concurrent, purely-forced-flow flame spread in microgravity environment. The results for a thin, cotton-fiberglass-blended textile fabric fuel are presented. Flat baffles of differing materials are used to alter the radiative boundary conditions with transparent polycarbonate, black anodized aluminum (reflectance ~ 0), and highly polished aluminum (reflectance ~ 1). The baffles are parallel to the fuel sheet and placed symmetrically on each side. The inter-baffle distance is varied to change the boundary conditions for the flow. In all tests, samples are ignited at the upstream leading edge and allowed to burn to completion. Results show that the flame reaches a steady length and spread rate at low flow speeds (< 15 cm/s) for all tested inter-baffle distances. As the distance decreases, the flame length and spread rate first increase then decrease showing an optimal inter-baffle distance. For all baffle types, the flame either fails to ignite or extinguishes before reaching the end of the sample when the inter-baffle distance is too small (~ 1 cm). This is attributed to the reduction of oxygen supply to the flame zone and heat loss to the baffles. The results also show at the same inter-baffle distance, flame length and spread rate are highest for polished aluminum baffles, and lowest for transparent polycarbonate baffles. The differences are most prominent at intermediate tested baffle distances. While the radiative heat feedback from the baffles is expected to increase when the baffle distance decreases, the combustion is limited by the reduced oxygen supply. Near this limit, flame lengths and spread rates are similar for all baffle types.",
+      "official_url": "https://ntrs.nasa.gov/citations/20205004657",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20205004657/downloads/ICES-2020-407-final.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20205004657.pdf",
+      "topics": [
+        "microgravity",
+        "flame spread",
+        "confined combustion",
+        "bass"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "CONFERENCE_PAPER"
+    },
+    {
+      "paper_id": "ntrs:20150008962",
+      "source": "ntrs",
+      "source_record_id": "20150008962",
+      "title": "Concurrent Flame Growth, Spread and Extinction over Composite Fabric Samples in Low Speed Purely Forced Flow in Microgravity",
+      "authors": [
+        "Zhao, Xiaoyang",
+        "T'ien, James S.",
+        "Ferkul, Paul V.",
+        "Olson, Sandra L."
+      ],
+      "year": 2019,
+      "abstract": "As a part of the NASA BASS and BASS-II experimental projects aboard the International Space Station, flame growth, spread and extinction over a composite cotton-fiberglass fabric blend (referred to as the SIBAL fabric) were studied in low-speed concurrent forced flows. The tests were conducted in a small flow duct within the Microgravity Science Glovebox. The fuel samples measured 1.2 and 2.2 cm wide and 10 cm long. Ambient oxygen was varied from 21% down to 16% and flow speed from 40 cm/s down to 1 cm/s. A small flame resulted at low flow, enabling us to observe the entire history of flame development including ignition, flame growth, steady spread (in some cases) and decay at the end of the sample. In addition, by decreasing flow velocity during some of the tests, low-speed flame quenching extinction limits were found as a function of oxygen percentage. The quenching speeds were found to be between 1 and 5 cm/s with higher speed in lower oxygen atmosphere. The shape of the quenching boundary supports the prediction by earlier theoretical models. These long duration microgravity experiments provide a rare opportunity for solid fuel combustion since microgravity time in ground-based facilities is generally not sufficient. This is the first time that a low-speed quenching boundary in concurrent spread is determined in a clean and unambiguous manner.",
+      "official_url": "https://ntrs.nasa.gov/citations/20150008962",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20150008962/downloads/20150008962.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20150008962.pdf",
+      "topics": [
+        "concurrent",
+        "microgravity",
+        "flame spread"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "CONFERENCE_PAPER"
+    },
+    {
+      "paper_id": "ntrs:20170000230",
+      "source": "ntrs",
+      "source_record_id": "20170000230",
+      "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+      "authors": [
+        "Ruff, Gary A.",
+        "Urban, David L."
+      ],
+      "year": 2019,
+      "abstract": "Since 2012, a series of Spacecraft Fire Experiments (Saffire) have been under development by the Spacecraft Fire Safety Demonstration (SFS Demo) project, funded by NASA's Advanced Exploration Systems Division. The overall objective of this project is to reduce the uncertainty and risk associated with the design of spacecraft fire safety systems for NASA's exploration missions. The approach to achieving this goal has been to define, develop, and conduct experiments that address gaps in spacecraft fire safety knowledge and capabilities identified by NASA's Fire Safety System Maturation Team. The Spacecraft Fire Experiments (Saffire-I, -II, and -III) are material flammability tests at length scales that are realistic for a spacecraft fire in low-gravity. The specific objectives of these three experiments are to (1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA's normal gravity material flammability screening test. The experiments will be conducted in Orbital ATK's Cygnus vehicle after it has unberthed from the International Space Station. The tests will be fully automated with the data downlinked at the conclusion of the test before the Cygnus vehicle reenters the atmosphere. This paper discusses the status of the Saffire-I, II, and III experiments followed by a review of the fire safety technology gaps that are driving the development of objectives for the next series of experiments, Saffire-IV, V, and VI.",
+      "official_url": "https://ntrs.nasa.gov/citations/20170000230",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20170000230/downloads/20170000230.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20170000230.pdf",
+      "topics": [
+        "fire safety",
+        "life support",
+        "microgravity"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "CONFERENCE_PAPER"
+    },
+    {
+      "paper_id": "ntrs:20260001600",
+      "source": "ntrs",
+      "source_record_id": "20260001600",
+      "title": "Spacecraft Fire Safety Predictions using Verified Saffire Model",
+      "authors": [
+        "Justin Niehaus",
+        "David Urban",
+        "Gary Ruff",
+        "Gordon Berger",
+        "John Easton"
+      ],
+      "year": 2026,
+      "abstract": "A model developed using Fire Dynamics Simulator (FDS) that aimed to determine the effect of a fire in a spacecraft was validated by data collected during the Saffire campaign. The model used inlet and outlet temperatures and CO<sub>2</sub> concentrations of the Saffire payload where fire spread was taking place to determine the amount of heat and combustion products that made it into Northrop Grumman’s Cygnus vehicle. The model was then validated using six remote sensors in various places in the vehicle, as well as a far field device (FFD) in the open zenith section that was representative of average vehicle values. The current work focuses on using the model to predict fire safety scenarios. One simulation aimed to determine the fate of HCl, which sticks to surfaces. The model prediction showed that the HCl was removed from the atmosphere rapidly. This compared well against the FFD data in the Saffire VI campaign event where a bottle of 5% HCl was released into the vehicle. An additional simulation where the Environmental Control and Life Support System (ECLSS) was shut off once the FFD reached 5 ppm of HCl showed that HCl stayed in the atmosphere considerably longer. Continuing the simulation with the ECLSS activated and after temperatures returned to their initial conditions, resulted in a rapid removal of HCL similar to that observed in the original HCl release scenario model. Finally, a simulation that used the heat release rate from a lithium-ion battery test to determine the effect it would have on a spacecraft was performed. This simulation used a heat addition rate that is considerably higher than what was determined from the burning of solid fuels in the Saffire campaign and hence produced a non-trivial temperature increase in more locations within the vehicle.",
+      "official_url": "https://ntrs.nasa.gov/citations/20260001600",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20260001600/downloads/Spacecraft%20Fire%20Safety%20Predictions.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20260001600.pdf",
+      "topics": [
+        "fire safety",
+        "modeling and simulation"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "CONFERENCE_PAPER"
+    },
+    {
+      "paper_id": "ntrs:20240007628",
+      "source": "ntrs",
+      "source_record_id": "20240007628",
+      "title": "Extinction of Solid Diffusion Flame in Microgravity: Details of Quenching and Blowoff Processes",
+      "authors": [
+        "Chengyao Li",
+        "James S Tien",
+        "Paul V Ferkul",
+        "Sandra L Olson",
+        "Michael C Johnston"
+      ],
+      "year": 2024,
+      "abstract": "Long duration microgravity experiments aboard the International Space Station determine diffusion flame extinction limits of PMMA spheres. Upon ignition from an electrically-heated coil, the 4-cm-diameter samples are exposed to forced flows ranging from 0.2 to 80 cm/s and an oxygen ranging from 13 to 28% in one atmosphere total pressure. Extinction is reached as oxygen concentration gradually decreases by natural depletion. Five extinction tests are presented at different flow velocities and oxygen concentrations. Quenching at low velocity is observed with the flame tip shrinking upstream and blowoff is observed when a hole forms in the flame at the forward flow stagnation point. However, these processes are not quasistatic. The quenching motion involves periodic flame tip pulsating toward downstream and shrinking upstream with a continually decreasing flame size at the end of each cycle. In blowoff, the flame base pulsates between the flame hole and the downstream location, although with far fewer cycles compared to quenching. The pulsations appear to be the result of a premixed flame front spreading into a combustible mixture. Two specific cases are discussed. In the first, at very low flow velocity (~ 0.4 cm/s) and elevated oxygen, self-sustained flame tip cyclic pulsations are observed for a lengthy period (~15 minutes). In the second case with a higher flow velocity (50 cm/s), the diffusion flame is stabilized at the shoulder of the spherical sample after local stagnation point blowoff. With steady decrease in ambient oxygen due to depletion, spinning flamelets are formed. The long-duration microgravity environment makes it possible to observe. \nthese interesting and detailed extinction processes.",
+      "official_url": "https://ntrs.nasa.gov/citations/20240007628",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20240007628/downloads/GELsymposiumfinalRev1.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20240007628.pdf",
+      "topics": [
+        "flame quenching",
+        "flame blowoff",
+        "flame pulsation",
+        "low stretch flame",
+        "microgravity",
+        "sofie",
+        "gel"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "CONFERENCE_PAPER"
+    },
+    {
+      "paper_id": "ntrs:19890014267",
+      "source": "ntrs",
+      "source_record_id": "19890014267",
+      "title": "An experimental study of opposed flow diffusion flame extinction over a thin fuel in microgravity",
+      "authors": [
+        "Ferkul, Paul V."
+      ],
+      "year": 2019,
+      "abstract": "The flame spread and flame extinction characteristics of a thin fuel burning in a low-speed forced convective environment in microgravity were examined. The flame spread rate was observed to decrease both with decreasing ambient oxygen concentration as well as decreasing free stream velocity. A new mode of flame extinction was observed, caused by either of two means: keeping the free stream velocity constant and decreasing the oxygen concentration, or keeping the oxygen concentration constant and decreasing the free stream velocity. This extinction is called quenching extinction. By combining this data together with a previous microgravity quiescent flame study and normal-gravity blowoff extinction data, a flammability map was constructed with molar percentage oxygen and characteristic relative velocity as coordinates. The Damkohler number is not sufficient to predict flame spread and extinction in the near quench limit region.",
+      "official_url": "https://ntrs.nasa.gov/citations/19890014267",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/19890014267/downloads/19890014267.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__19890014267.pdf",
+      "topics": [],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Legacy CDMS",
+      "sti_type": "THESIS_DISSERTATION"
+    },
+    {
+      "paper_id": "ntrs:20210011385",
+      "source": "ntrs",
+      "source_record_id": "20210011385",
+      "title": "Burning and Suppression of Solids–II  (BASS-II) Summary Report",
+      "authors": [
+        "Sandra L. Olson",
+        "Paul V. Ferkul",
+        "Subrata Bhattacharjee",
+        "Fletcher J. Miller",
+        "Carlos Fernandez-Pello",
+        "Shmuel Link",
+        "James S. T'ien",
+        "Indrek Wichman"
+      ],
+      "year": 2021,
+      "abstract": "The Burning and Suppression of Solids (BASS) experiment hardware is a small flow duct that\nprovides containment for small scale burning of solid samples within the Microgravity Science Glovebox (MSG) aboard the International Space Station (ISS). A video camera with a data overlay and a 35-mm still camera record the combustion events. The controls (ignition, fan speed, etc.) are operated by an astronaut while the principal investigator team monitors the experiment from the ground and communicates directly with the astronaut. For the first time on ISS, BASS–II utilized MSG working volume dilution with gaseous N2. We developed a perfectly stirred reactor model to determine the N2 flow time and flow rate to obtain the desired reduced O2 concentration in the working volume for each test. We calibrated the model with the Compound Specific Analyzer-Combustion Products (CSA-CP) O2 readings offset using the Major Constituents Analyzer reading of the ISS ambient atmosphere data for that day. This worked out extremely well for operations, and added a new vital variable, ambient O2 level, to our test matrices. The main variables tested in BASS–II were ambient O2 concentration, ventilation flow velocity, and fuel type, thickness, and geometry. BASS–II also utilized the onboard CSA-CP for O2 and CO readings, and the Carbon Dioxide Monitor for CO2 readings before and after each test. Readings from these sensors allow us to evaluate the completeness of the combustion. The O2 and CO2 readings before and after each test were analyzed and compared very well to stoichiometric ratios for a one-step gas-phase reaction. The CO versus CO2 followed a linear trend for some datasets, but not for all the different geometries of fuel and flow tested. We calculated the heat release rates during each test from the O2 consumption and burn times, using the constant 13.1 kJ of heat released per gram of O2 consumed. The results showed that most of the tests had heat release rates well below 100 W. Lastly, the global equivalence ratio for the tests is estimated to be fuel rich, 1.3 on average using mass loss and O2 consumption data.",
+      "official_url": "https://ntrs.nasa.gov/citations/20210011385",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20210011385/downloads/TM-20210011385.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20210011385.pdf",
+      "topics": [
+        "microgravity",
+        "flammability",
+        "flame spread",
+        "iss",
+        "glovebox"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "text extraction stopped at 70 pages; 1 pages flagged as possible scans",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "TECHNICAL_MEMORANDUM"
+    },
+    {
+      "paper_id": "ntrs:20150019858",
+      "source": "ntrs",
+      "source_record_id": "20150019858",
+      "title": "Results from On-Board CSA-CP and CDM Sensor Readings During the Burning and Suppression of Solids II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)",
+      "authors": [
+        "Olson, Sandra L.",
+        "Ferkul, Paul V.",
+        "Bhattacharjee, Subrata",
+        "Miller, Fletcher J.",
+        "Fernandez-Pello, Carlos",
+        "Link, Shmuel",
+        "T'ien, James S.",
+        "Wichman, Indrek"
+      ],
+      "year": 2019,
+      "abstract": "For the first time on ISS, BASS-II utilized MSG working volume dilution with gaseous nitrogen (N2). We developed a perfectly stirred reactor model to determine the N2 flow time and flow rate to obtain the desired reduced oxygen concentration in the working volume for each test. We calibrated the model with CSA-CP oxygen readings offset using the Mass Constituents Analyzer reading of the ISS ambient atmosphere data for that day. This worked out extremely well for operations, and added a new vital variable, ambient oxygen level, to our test matrices. The main variables tested in BASS-II were ambient oxygen concentration, ventilation flow velocity, and fuel type, thickness, and geometry. BASS-II also utilized the on-board CSA-CP for oxygen and carbon monoxide readings, and the CDM for carbon dioxide readings before and after each test. Readings from these sensors allow us to evaluate the completeness of the combustion. The oxygen and carbon dioxide readings before and after each test were analyzed and compared very well to stoichiometric ratios for a one step gas-phase reaction. The CO versus CO2 followed a linear trend for some datasets, but not for all the different geometries of fuel and flow tested. Lastly, we calculated the heat release rates during each test from the oxygen consumption and burn times, using the constant 13.1 kJ of heat released per gram of oxygen consumed. The results showed that the majority of the tests had heat release rates well below 100 Watts.",
+      "official_url": "https://ntrs.nasa.gov/citations/20150019858",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20150019858/downloads/20150019858.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20150019858.pdf",
+      "topics": [
+        "combustion products",
+        "oxygen",
+        "international space station"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "CONFERENCE_PAPER"
+    },
+    {
+      "paper_id": "ntrs:20150023456",
+      "source": "ntrs",
+      "source_record_id": "20150023456",
+      "title": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+      "authors": [
+        "Dietrich, Daniel L.",
+        "Ferkul, Paul V.",
+        "Bryg, Victoria M.",
+        "Nayagam, M. Vedha",
+        "Hicks, Michael C.",
+        "Williams, Forman A.",
+        "Dryer, Frederick L.",
+        "Shaw, Benjamin D.",
+        "Choi, Mun Y.",
+        "Avedisian, C. Thomas"
+      ],
+      "year": 2019,
+      "abstract": "The Flame Extinguishment Experiment (FLEX) program is a continuing set of experiments on droplet combustion, performed employing the Multi-User Droplet Combustion Apparatus (MDCA), inside the chamber of the Combustion Integrated Rack (CIR), which is located in the Destiny module of the International Space Station (ISS). This report describes the experimental hardware, the diagnostic equipment, the experimental procedures, and the methods of data analysis for FLEX. It also presents the results of the first 284 tests performed. The intent is not to interpret the experimental results but rather to make them available to the entire scientific community for possible future interpretations.",
+      "official_url": "https://ntrs.nasa.gov/citations/20150023456",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20150023456/downloads/20150023456.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20150023456.pdf",
+      "topics": [
+        "international space station",
+        "droplet combustion",
+        "microgravity"
+      ],
+      "extraction_status": "extracted",
+      "extraction_notes": "text extraction stopped at 70 pages; 2 pages flagged as possible scans",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "TECHNICAL_PUBLICATION"
+    },
+    {
+      "paper_id": "ntrs:20090014812",
+      "source": "ntrs",
+      "source_record_id": "20090014812",
+      "title": "Multi-User Droplet Combustion Apparatus - Flame Extinguishment Experiment",
+      "authors": [
+        "Williams, Forman A.",
+        "Nayagam, Vedha",
+        "Choi, Mun Y.",
+        "Dryer, Frederick L.",
+        "Shaw, Benjamin D."
+      ],
+      "year": 2019,
+      "abstract": "Multi-User Droplet Combustion Apparatus Flame Extinguishment Experiment (MDCA-FLEX) will assess the effectiveness of fire suppressants in microgravity and quantify the effect of different possible crew exploration atmospheres on fire suppression. The goal of this research is to provide definition and direction for large scale fire suppression tests and selection of the fire suppressant for next generation crew exploration vehicles.",
+      "official_url": "https://ntrs.nasa.gov/citations/20090014812",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20090014812/downloads/20090014812.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20090014812.pdf",
+      "topics": [],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Johnson Space Center",
+      "sti_type": "OTHER"
+    },
+    {
+      "paper_id": "ntrs:20200000361",
+      "source": "ntrs",
+      "source_record_id": "20200000361",
+      "title": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+      "authors": [
+        "Ferkul, Paul",
+        "Brown, Lauren",
+        "Mroczka, Christopher",
+        "Bhattacharjee, Subrata",
+        "Fernandez-Pello, Carlos",
+        "Miller, Fletcher",
+        "Olson, Sandra",
+        "T'ien, James",
+        "Wichman, Indrek"
+      ],
+      "year": 2020,
+      "abstract": "The Solid Fuel Ignition and Extinction (SoFIE) project studies ignition and flammability of solid spacecraft materials (fuels) in practical geometries and realistic atmospheric conditions. It is an experiment insert designed for use within the existing Combustion Integrated Rack (CIR). The CIR chamber provides a level of containment and permits testing at variable oxygen concentrations and pressures representative of current and planned NASA Space Exploration Atmospheres. The applications of SoFIE include: (1) Determining safer selection of cabin materials and validating NASA materials flammability selection using 1-g test protocols for low-gravity fires, (2) Improving understanding of early fire growth behavior, (3) Validating material flammability numerical models, (4) Determining optimal suppression techniques for burning materials by diluents, flow reduction, and venting, (5) Obtaining burning behavior of actual engineering materials planned for spacecraft, (6) Developing corresponding models of microgravity flame spread, flammability, and extinction, and use the results to improve normal gravity combustion models for terrestrial applications. The hardware permits a wide range of solid-material combustion and fire suppression studies. It supports multiple investigations using common infrastructure including sample holders, flow control, test sections, external radiant heaters, igniters, and diagnostics. SoFIE has been developed to meet the requirements of five unique investigations. It is currently being built and slated to begin operations on the ISS in July 2021. Given the general capabilities of the hardware insert, it is intended to be used as a facility for future researchers who can propose to NASA for related solid combustion studies.\n\n\n\n",
+      "official_url": "https://ntrs.nasa.gov/citations/20200000361",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20200000361/downloads/20200000361.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20200000361.pdf",
+      "topics": [],
+      "extraction_status": "extracted",
+      "extraction_notes": "1 pages flagged as possible scans",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "PRESENTATION"
+    },
+    {
+      "paper_id": "ntrs:20050199458",
+      "source": "ntrs",
+      "source_record_id": "20050199458",
+      "title": "Experiments Developed to Study Microgravity Smoldering Combustion",
+      "authors": [
+        "Vergilii, Franklin"
+      ],
+      "year": 2018,
+      "abstract": "The overall objective of the Microgravity Smoldering Combustion (MSC) research program is to understand and predict smoldering combustion under normal and microgravity (near-zero-gravity) conditions to help prevent and control smolder-originated fires, in both environments. Smoldering is defined as a nonflaming, self-sustaining, propagating, exothermic surface reaction. If a material is sufficiently permeable, smoldering is not confined to its outer surface, but can propagate as a reaction wave through the interior of the material. The MSC program will accomplish its goals by conducting smolder experiments on the ground and in a space-based laboratory, and developing theoretical models of the process. Space-based experiments are necessary because smoldering is a very slow process and, consequently, its study in a microgravity environment requires extended periods of time that can only be achieved in space. Smoldering can occur in a variety of processes ranging from the smolder of porous insulating materials to underground coal combustion. Many materials can sustain smoldering, including wood, cloth, foams, tobacco, other dry organic materials, and charcoal. The ignition, propagation, transition to flaming, and extinction of the smolder reaction are controlled by complex, thermochemical mechanisms that are not well understood. As with many forms of combustion, gravity affects the availability of the oxidizer and the transport of heat, and therefore, the rate of combustion. The smoldering combustion of porous materials has been studied both experimentally and theoretically, usually in the context of fire safety. Smoldering encompasses a number of fundamental processes, including heat and mass transfer in a porous media; endothermic pyrolysis of combustible material; ignition, propagation, and extinction of heterogeneous exothermic reactions at the solid-gas pore interface; and the onset of gas phase reactions (flaming) from existing surface reactions. Smoldering presents a serious fire risk because the combustion can propagate slowly in a material's interior and go undetected for long periods of time. It typically yields a substantially higher conversion of fuel to toxic compounds than does flaming (though more slowly), and may undergo a sudden transition to flaming.",
+      "official_url": "https://ntrs.nasa.gov/citations/20050199458",
+      "pdf_url": "https://ntrs.nasa.gov/api/citations/20050199458/downloads/20050199458.pdf",
+      "pdf_status": "downloaded",
+      "local_pdf_path": "raw/ntrs__20050199458.pdf",
+      "topics": [],
+      "extraction_status": "extracted",
+      "extraction_notes": "",
+      "synthetic": false,
+      "center": "Glenn Research Center",
+      "sti_type": "OTHER"
+    }
+  ]
+}

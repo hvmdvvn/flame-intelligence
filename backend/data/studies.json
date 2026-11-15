@@ -1,0 +1,152 @@
+{
+  "comparison_rules_version": "1",
+  "studies": [
+    {
+      "study_id": "ntrs:20210011385#s1",
+      "paper_id": "ntrs:20210011385",
+      "label": "BASS-II PMMA 100 µm, ISS",
+      "experiment_program": "Burning and Suppression of Solids—II",
+      "fuel_as_reported": "100-µm PMMA (polymethylmethacrylate) film",
+      "fuel_family": "pmma",
+      "gravity_regime": "microgravity",
+      "platform": "iss",
+      "oxygen_mole_fraction": null,
+      "oxygen_as_reported": null,
+      "pressure_kpa": null,
+      "pressure_as_reported": null,
+      "ambient_gas": null,
+      "method": "Opposed-flow spread on the ISS Microgravity Science Glovebox. The stated rate is for the steady period before the flow was cut off.",
+      "limitations": [
+        "The oxygen concentration and flow speed during this specific 2.2 mm/s interval are not stated in the same paragraph.",
+        "analyst: A nearby example image cites 20.7 percent oxygen, 1 atm, and 2.5 cm/s, but that sentence is not tied to the 2.2 mm/s value, so those conditions are not attached here."
+      ],
+      "provenance": {"page_number": 31, "location": "page"}
+    },
+    {
+      "study_id": "ntrs:20210011385#s2",
+      "paper_id": "ntrs:20210011385",
+      "label": "PMMA 100 µm, quiescent 1g model",
+      "experiment_program": "Burning and Suppression of Solids—II",
+      "fuel_as_reported": "100 µm PMMA sheet",
+      "fuel_family": "pmma",
+      "gravity_regime": "normal_gravity",
+      "platform": "other",
+      "oxygen_mole_fraction": 0.21,
+      "oxygen_as_reported": "21 percent O2",
+      "pressure_kpa": null,
+      "pressure_as_reported": null,
+      "ambient_gas": null,
+      "method": "Computational model of downward spread in a quiescent 1g environment. This is a reported model result, not an ISS measurement.",
+      "limitations": [
+        "analyst: The same sentence also reports 1.6, 1.2, and 0.9 mm/s for 200, 300, and 400 µm sheets. Those thicknesses are not separate rows, because plotting them as one series would hide thickness."
+      ],
+      "provenance": {"page_number": 34, "location": "page"}
+    },
+    {
+      "study_id": "ntrs:20210011385#s3",
+      "paper_id": "ntrs:20210011385",
+      "label": "PMMA 100 µm model extinction, 21% O2",
+      "experiment_program": "Burning and Suppression of Solids—II",
+      "fuel_as_reported": "100-µm-thick sheet of polymethylmethacrylate",
+      "fuel_family": "pmma",
+      "gravity_regime": "microgravity",
+      "platform": "other",
+      "oxygen_mole_fraction": 0.21,
+      "oxygen_as_reported": "21 percent O2",
+      "pressure_kpa": null,
+      "pressure_as_reported": null,
+      "ambient_gas": "O2-N2",
+      "method": "Computational extinction velocity reported for the 100 µm PMMA sheet. The paper says it closely matches the BASS-II experiments.",
+      "limitations": [
+        "analyst: This is a model result on page 34, not a crew-measured velocity. The chapter concerns the ISS experiment; the caption does not repeat the word microgravity."
+      ],
+      "provenance": {"page_number": 34, "location": "figure:2.12"}
+    },
+    {
+      "study_id": "ntrs:20210011385#s4",
+      "paper_id": "ntrs:20210011385",
+      "label": "PMMA 100 µm model extinction, 16% O2",
+      "experiment_program": "Burning and Suppression of Solids—II",
+      "fuel_as_reported": "100-µm-thick sheet of polymethylmethacrylate",
+      "fuel_family": "pmma",
+      "gravity_regime": "microgravity",
+      "platform": "other",
+      "oxygen_mole_fraction": 0.16,
+      "oxygen_as_reported": "16 percent O2",
+      "pressure_kpa": null,
+      "pressure_as_reported": null,
+      "ambient_gas": "O2-N2",
+      "method": "Computational extinction velocity at the lower oxygen level, same sheet and model as the 21 percent case.",
+      "limitations": [
+        "analyst: Model result. Oxygen differs from the 21 percent case, so a chart is allowed only with that caveat."
+      ],
+      "provenance": {"page_number": 34, "location": "figure:2.12"}
+    }
+  ],
+  "measurements": [
+    {
+      "measurement_id": "ntrs:20210011385#s1#m1",
+      "study_id": "ntrs:20210011385#s1",
+      "paper_id": "ntrs:20210011385",
+      "measurement_as_reported": "steady spread rate",
+      "measurement_family": "flame_spread_rate",
+      "value": 2.2,
+      "unit": "mm/s",
+      "uncertainty": null,
+      "normalized_value": null,
+      "normalized_unit": null,
+      "conversion_note": null,
+      "verification_status": "verified",
+      "provenance": {"page_number": 31, "location": "page"},
+      "synthetic": false
+    },
+    {
+      "measurement_id": "ntrs:20210011385#s2#m1",
+      "study_id": "ntrs:20210011385#s2",
+      "paper_id": "ntrs:20210011385",
+      "measurement_as_reported": "steady spread rate, 100 µm sheet",
+      "measurement_family": "flame_spread_rate",
+      "value": 2.8,
+      "unit": "mm/s",
+      "uncertainty": null,
+      "normalized_value": null,
+      "normalized_unit": null,
+      "conversion_note": null,
+      "verification_status": "verified",
+      "provenance": {"page_number": 34, "location": "page"},
+      "synthetic": false
+    },
+    {
+      "measurement_id": "ntrs:20210011385#s3#m1",
+      "study_id": "ntrs:20210011385#s3",
+      "paper_id": "ntrs:20210011385",
+      "measurement_as_reported": "extinction velocity",
+      "measurement_family": "extinction_velocity",
+      "value": 1.5,
+      "unit": "cm/s",
+      "uncertainty": null,
+      "normalized_value": null,
+      "normalized_unit": null,
+      "conversion_note": null,
+      "verification_status": "verified",
+      "provenance": {"page_number": 34, "location": "figure:2.12"},
+      "synthetic": false
+    },
+    {
+      "measurement_id": "ntrs:20210011385#s4#m1",
+      "study_id": "ntrs:20210011385#s4",
+      "paper_id": "ntrs:20210011385",
+      "measurement_as_reported": "extinction velocity",
+      "measurement_family": "extinction_velocity",
+      "value": 3.5,
+      "unit": "cm/s",
+      "uncertainty": null,
+      "normalized_value": null,
+      "normalized_unit": null,
+      "conversion_note": null,
+      "verification_status": "verified",
+      "provenance": {"page_number": 34, "location": "figure:2.12"},
+      "synthetic": false
+    }
+  ]
+}

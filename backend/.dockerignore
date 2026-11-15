@@ -1,0 +1,10 @@
+__pycache__
+.pytest_cache
+data/raw
+data/index
+data/quarantine
+data/validated
+data/normalized
+data/*.sqlite*
+.env*
+tests

@@ -1,0 +1,11 @@
+# Security model and limits
+
+No anonymous write, arbitrary URL fetch, shell execution or path-based download API exists. Imports run under the operator's filesystem permissions and require explicit authorization/rights metadata. CSV/TSV/JSON adapters have byte/row/metadata limits, strict scientific schemas, checksums, immutable artifact names, whole-file validation and atomic database writes. Unsafe formats are rejected rather than executed. Quarantined content is never indexed for training.
+
+API identifiers are parameterized SQL values; extract file IDs are restricted before filesystem lookup. Downloads resolve only within the raw root, require redistribution permission and digest verification. Credentials remain in server environment variables. Job metadata requires a configured constant-time checked operator bearer token. CORS origins are explicit. JSON-only POSTs carry no ambient authentication cookies, so current write-free API does not depend on cookie CSRF protection. Add CSRF/session protections if cookie-based mutation/authentication is introduced.
+
+POST bodies (including chunked streams) and per-client request rates are bounded. The limiter is in memory, local to one worker; deploy a gateway limiter for distributed operation. Proxy headers are not trusted by the container runtime. LLM endpoint URLs are operator configuration, never supplied by clients. External documents are treated as untrusted data; generation is schema/citation/numeric checked and remains an unverified hypothesis.
+
+Residual risks: unreviewed scientific rights and operator mistakes, general prompt-injection/semantic hallucination, local operator privileges, parser/dependency vulnerabilities, cross-process index rebuild concurrency, unbenchmarked large imports and insufficient scientific metadata. Anonymous research reads are intentional; this is not a private multiuser workspace system. Saved mission configurations live in the browser and are not access-controlled server records.
+
+CI runs `pip-audit` and npm audit. A failed/unavailable advisory service is not a clean security scan. Consult the executed-check report for actual results and remediate reviewed advisories before public deployment.

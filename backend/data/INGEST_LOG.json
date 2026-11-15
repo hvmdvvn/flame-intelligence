@@ -1,0 +1,76 @@
+{
+  "queries": [
+    "microgravity flame spread",
+    "Saffire spacecraft fire safety",
+    "flame extinction microgravity oxygen",
+    "BASS burning suppression solids ISS",
+    "FLEX droplet combustion microgravity",
+    "solid fuel ignition extinction microgravity",
+    "confined concurrent flame spread microgravity",
+    "spacecraft fire experiment microgravity"
+  ],
+  "selected": [
+    {
+      "paper_id": "ntrs:20205004657",
+      "title": "Effects of Confinement on Flame Spread in Microgravity",
+      "query": "microgravity flame spread"
+    },
+    {
+      "paper_id": "ntrs:20150008962",
+      "title": "Concurrent Flame Growth, Spread and Extinction over Composite Fabric Samples in Low Speed Purely Forced Flow in Microgravity",
+      "query": "microgravity flame spread"
+    },
+    {
+      "paper_id": "ntrs:20170000230",
+      "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+      "query": "Saffire spacecraft fire safety"
+    },
+    {
+      "paper_id": "ntrs:20260001600",
+      "title": "Spacecraft Fire Safety Predictions using Verified Saffire Model",
+      "query": "Saffire spacecraft fire safety"
+    },
+    {
+      "paper_id": "ntrs:20240007628",
+      "title": "Extinction of Solid Diffusion Flame in Microgravity: Details of Quenching and Blowoff Processes",
+      "query": "flame extinction microgravity oxygen"
+    },
+    {
+      "paper_id": "ntrs:19890014267",
+      "title": "An experimental study of opposed flow diffusion flame extinction over a thin fuel in microgravity",
+      "query": "flame extinction microgravity oxygen"
+    },
+    {
+      "paper_id": "ntrs:20210011385",
+      "title": "Burning and Suppression of Solids\u2013II  (BASS-II) Summary Report",
+      "query": "BASS burning suppression solids ISS"
+    },
+    {
+      "paper_id": "ntrs:20150019858",
+      "title": "Results from On-Board CSA-CP and CDM Sensor Readings During the Burning and Suppression of Solids II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)",
+      "query": "BASS burning suppression solids ISS"
+    },
+    {
+      "paper_id": "ntrs:20150023456",
+      "title": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+      "query": "FLEX droplet combustion microgravity"
+    },
+    {
+      "paper_id": "ntrs:20090014812",
+      "title": "Multi-User Droplet Combustion Apparatus - Flame Extinguishment Experiment",
+      "query": "FLEX droplet combustion microgravity"
+    },
+    {
+      "paper_id": "ntrs:20200000361",
+      "title": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+      "query": "solid fuel ignition extinction microgravity"
+    },
+    {
+      "paper_id": "ntrs:20050199458",
+      "title": "Experiments Developed to Study Microgravity Smoldering Combustion",
+      "query": "solid fuel ignition extinction microgravity"
+    }
+  ],
+  "skipped": [],
+  "psi": "PSI repository page returned HTTP 200 (https://psi.nasa.gov/physci/repo/). No stable public document API was used, so this corpus contains NTRS records only. No PSI metadata was guessed."
+}
