@@ -51,9 +51,9 @@ Reuse the existing projects rather than creating duplicate projects. Do not depl
 
 ## GitHub
 
-The complete tracked project is published to the private repository [hvmdvvn/flame-intelligence](https://github.com/hvmdvvn/flame-intelligence), branch `main`. The initial Git upload repeatedly failed with HTTP 408; GitHub API uploads preserved every tracked file and verified their Git object hashes. Local `main` tracks `origin/main`.
+The complete tracked project is published to [hvmdvvn/flame-intelligence](https://github.com/hvmdvvn/flame-intelligence), branch `main`. GitHub reports it as public at final verification. The initial Git upload repeatedly failed with HTTP 408; GitHub API uploads preserved every tracked file and verified their Git object hashes. Subsequent small Git pushes succeeded. Local `main` tracks `origin/main`.
 
-Direct production deployment through the CLI works. Automatic GitHub-to-Vercel deployment is pending Vercel access to this private repository; both `vercel git connect` attempts were rejected by Vercel. Grant the Vercel GitHub app access to the repository, then run from the repository root:
+Direct production deployment through the CLI works. Automatic GitHub-to-Vercel deployment is pending the Vercel GitHub integration; `vercel git connect` was rejected for both projects, including after the repository became public. Connect the GitHub account in Vercel and grant the Vercel GitHub app access to the repository, then run from the repository root:
 
 ```powershell
 npx --yes vercel@65.15.0 git connect https://github.com/hvmdvvn/flame-intelligence.git --project flame-intelligence-api --scope nexus-f8e7 --yes
