@@ -1,0 +1,149 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Fire behaves\ndifferently\nin free-fall.",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/investigations",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Investigations",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/research",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Publications",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/compare",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Compare study conditions",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/analytics",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Research data",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/ask",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Search the publications",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/missions",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Find relevant research",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/sources",
+      "status": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Sources and context",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Fire behaves\ndifferently\nin free-fall.",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/investigations",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Investigations",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/research",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Publications",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/compare",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Compare study conditions",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/analytics",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Research data",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/ask",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Search the publications",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/missions",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Find relevant research",
+      "theme": "daylight",
+      "violations": []
+    },
+    {
+      "route": "/sources",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Sources and context",
+      "theme": "daylight",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

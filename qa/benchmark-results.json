@@ -1,0 +1,26 @@
+{
+  "executed_at": "2026-11-13T20:52:23+00:00",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+  "python": "3.12.7",
+  "investigations": 20,
+  "sources": 40,
+  "papers": 12,
+  "chunks": 720,
+  "datasets": 0,
+  "imported_measurements": 0,
+  "method": "Single process, sequential warm in-process calls; disk/cache effects included, no HTTP/network/browser/concurrency. 100 samples, nearest rank p95.",
+  "timings": {
+    "investigation_search": {
+      "iterations": 100,
+      "median_ms": 4.845,
+      "p95_ms": 5.363
+    },
+    "mission_ranking": {
+      "iterations": 100,
+      "median_ms": 10.658,
+      "p95_ms": 11.6
+    }
+  },
+  "targets": "Local warm metadata search/ranking p95 < 200ms on this small corpus; not a production service guarantee."
+}

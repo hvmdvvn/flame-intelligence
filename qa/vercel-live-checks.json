@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-11-13T21:12:49.094Z",
+  "origin": "https://flame-intelligence.vercel.app",
+  "status": "passed",
+  "checks": [
+    {
+      "endpoint": "/service/api/health",
+      "status": 200
+    },
+    {
+      "endpoint": "/service/api/ready",
+      "status": 200
+    },
+    {
+      "endpoint": "/service/api/investigations?limit=1",
+      "status": 200
+    },
+    {
+      "endpoint": "/service/api/sources",
+      "status": 200
+    },
+    {
+      "workflow": "investigation search and detail",
+      "passed": true
+    },
+    {
+      "workflow": "mission ranking and source-complete scientific report",
+      "passed": true,
+      "report_sha256": "6772d9985ce45cd98bf461e8b67e9ac1240fef144de3fc2186541ead43df7c0c"
+    },
+    {
+      "workflow": "research question and cited evidence inspector",
+      "passed": true
+    },
+    {
+      "workflow": "published analytics and unavailable prediction",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "scope": "Live HTTPS/browser checks; no durable imports or model training performed."
+}

@@ -1,0 +1,2495 @@
+{
+  "format_version": "1",
+  "reproducibility_sha256": "d83a749d55bacf55c80637add8f8dd2642060cf7e88130d891743a48126cd00a",
+  "ranking": {
+    "method_version": "relevance-1.0.0",
+    "configuration": {
+      "question": "Which investigations provide evidence for solid material flammability in an oxygen enriched lunar habitat?",
+      "mission": "lunar_habitat",
+      "weights": {
+        "topic": 4,
+        "gravity": 2,
+        "conditions": 2,
+        "quantitative": 1,
+        "provenance": 1
+      },
+      "oxygen_fraction": 0.34,
+      "pressure_kpa": 70.0,
+      "gravity": null
+    },
+    "rankings": [
+      {
+        "investigation_id": "BASS-II",
+        "name": "BASS-II",
+        "score": 40.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.75,
+            "reason": "Matched question terms: flammability, oxygen, solid. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "1 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-psi-25"
+        ]
+      },
+      {
+        "investigation_id": "BASS",
+        "name": "BASS",
+        "score": 30.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.5,
+            "reason": "Matched question terms: flammability, solid. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "guide-2015",
+          "nasa-combustion"
+        ]
+      },
+      {
+        "investigation_id": "BRE",
+        "name": "BRE",
+        "score": 30.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.5,
+            "reason": "Matched question terms: flammability, solid. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Gaseous analog experiment; does not directly test each represented solid material.",
+          "Relevance to low or partial gravity is a research objective, not proof of partial-gravity measurements.",
+          "Run conditions and measurements have not been imported.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "bre-science",
+          "psi-opportunity"
+        ]
+      },
+      {
+        "investigation_id": "SOFIE",
+        "name": "SoFIE",
+        "score": 30.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.5,
+            "reason": "Matched question terms: flammability, solid. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "The 2019 presentation contains planned schedules; it does not establish present program status.",
+          "Program-level hardware capability does not establish conditions for a particular experimental run.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "nasa-combustion",
+          "sofie-paper"
+        ]
+      },
+      {
+        "investigation_id": "ACME",
+        "name": "ACME",
+        "score": 20.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.25,
+            "reason": "Matched question terms: flammability. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "1 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "ACME is a program grouping distinct experiments rather than one comparable run.",
+          "The historical overview describes five studies; later program reviews include six.",
+          "Only BRE has spacecraft fire prevention as its primary objective in this overview.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "acme-science"
+        ]
+      },
+      {
+        "investigation_id": "FLEX",
+        "name": "FLEX",
+        "score": 20.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.25,
+            "reason": "Matched question terms: flammability. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "guide-2015",
+          "psi-psi-69"
+        ]
+      },
+      {
+        "investigation_id": "FLEX-2",
+        "name": "FLEX-2",
+        "score": 20.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.25,
+            "reason": "Matched question terms: flammability. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-opportunity",
+          "station-fire-review"
+        ]
+      },
+      {
+        "investigation_id": "PSI-62",
+        "name": "BASS flame-spread modeling",
+        "score": 20.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.25,
+            "reason": "Matched question terms: flammability. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented not_reported. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "1 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Ground investigation using microgravity archive imagery; not a new partial-gravity experiment.",
+          "Published model objectives do not validate platform predictions.",
+          "Model files and evaluation outputs have not been imported.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-psi-62"
+        ]
+      },
+      {
+        "investigation_id": "SAFFIRE-I",
+        "name": "Saffire-I",
+        "score": 20.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.25,
+            "reason": "Matched question terms: flammability. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "PSI-98 project dates and proposal title conflict with its Saffire description; those fields are not propagated.",
+          "Raw imagery and sensor files have not been downloaded.",
+          "Microgravity flame spread cannot certify habitat material selection.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-psi-98",
+          "saffire-status"
+        ]
+      },
+      {
+        "investigation_id": "SAFFIRE-II",
+        "name": "Saffire-II",
+        "score": 20.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.25,
+            "reason": "Matched question terms: flammability. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-opportunity",
+          "saffire-facts"
+        ]
+      },
+      {
+        "investigation_id": "CFI",
+        "name": "CFI",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "The cited program-status presentation describes historical 2017 progress, not current operation.",
+          "Cool flames after visible extinction are not equivalent to successful suppression.",
+          "Run data and kinetic-model validation remain unavailable in this catalog.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "cfi-history",
+          "psi-opportunity"
+        ]
+      },
+      {
+        "investigation_id": "CFI-G",
+        "name": "CFI-G",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "1 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Distinct from the CFI liquid-droplet investigation.",
+          "Published objectives are not a uniform oxygen-enriched run dataset.",
+          "No run-specific composition, pressure or measurement data imported.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "cfig-paper"
+        ]
+      },
+      {
+        "investigation_id": "DAFT",
+        "name": "DAFT",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "guide-2015",
+          "nasa-combustion"
+        ]
+      },
+      {
+        "investigation_id": "DAFT-2",
+        "name": "DAFT-2",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "1 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Program identity is documented; detailed DAFT-2 methods and raw files not inspected.",
+          "DAFT and DAFT-2 are not assumed to share sensor calibration or measurements.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-opportunity"
+        ]
+      },
+      {
+        "investigation_id": "E-FIELD",
+        "name": "E-FIELD Flames",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "NASA identifies terrestrial combustion as the intended application.",
+          "Possible space applications are not demonstrated spacecraft suppression capability.",
+          "No raw electric-field or flame measurements have been imported.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "efield-science",
+          "psi-opportunity"
+        ]
+      },
+      {
+        "investigation_id": "SAFFIRE-III",
+        "name": "Saffire-III",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-opportunity",
+          "saffire-status"
+        ]
+      },
+      {
+        "investigation_id": "SAME",
+        "name": "SAME",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "guide-2015",
+          "nasa-combustion"
+        ]
+      },
+      {
+        "investigation_id": "SAME-R",
+        "name": "SAME-R",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "1 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Original SAME thermal-precipitator TEM grids had contamination according to the reflight metadata.",
+          "Raw reflight files and calibration records have not been imported.",
+          "Potential detector relevance is not evidence of a deployed product.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "psi-psi-101"
+        ]
+      },
+      {
+        "investigation_id": "SLICE",
+        "name": "SLICE",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "nasa-combustion",
+          "psi-opportunity"
+        ]
+      },
+      {
+        "investigation_id": "SPICE",
+        "name": "SPICE",
+        "score": 10.0,
+        "components": [
+          {
+            "dimension": "topic",
+            "weight": 4,
+            "value": 0.0,
+            "reason": "Matched question terms: none. Lexical metadata relevance only."
+          },
+          {
+            "dimension": "gravity",
+            "weight": 2,
+            "value": 0.0,
+            "reason": "Requested partial_gravity; documented microgravity. No extrapolation credit."
+          },
+          {
+            "dimension": "conditions",
+            "weight": 2,
+            "value": 0,
+            "reason": "Similarity uses only documented oxygen fraction and total pressure; missing or unspecified inputs receive no credit."
+          },
+          {
+            "dimension": "quantitative",
+            "weight": 1,
+            "value": 0.0,
+            "reason": "0 validated imported measurements; publications and reported model values do not substitute for raw runs."
+          },
+          {
+            "dimension": "provenance",
+            "weight": 1,
+            "value": 1.0,
+            "reason": "2 resolvable registered sources; source presence does not validate a scientific inference."
+          }
+        ],
+        "missing_fields": [
+          "oxygen_fraction",
+          "pressure_kpa",
+          "airflow_m_s"
+        ],
+        "limitations": [
+          "Metadata coverage does not establish availability of raw files or comparable run measurements.",
+          "Microgravity evidence cannot establish lunar or Martian partial-gravity behavior.",
+          "The documented gravity regime does not match this mission scenario; applicability requires validation.",
+          "Missing conditions prevent establishing quantitative atmospheric comparability."
+        ],
+        "source_ids": [
+          "guide-2015",
+          "nasa-combustion"
+        ]
+      }
+    ],
+    "gaps": [
+      "No catalog investigation establishes partial_gravity evidence. Microgravity is not partial gravity.",
+      "No validated raw experimental runs have been imported. Quantitative condition matching and model training remain unavailable."
+    ],
+    "assumptions": [
+      "Score is weighted evidence suitability (0–100), not probability of fire or a safety assessment.",
+      "Mission selects only a default gravity target; it does not assert validated mission applicability.",
+      "Missing values receive zero supported-similarity credit; no condition is imputed.",
+      "Condition similarity uses linear tolerances 0.1 oxygen fraction and 50 kPa, chosen for exploration and not physical equivalence.",
+      "Independent research tool; not NASA-endorsed and not a certified fire-safety system."
+    ]
+  },
+  "analytics": {
+    "method_version": "descriptive-1.0.0",
+    "groups": [],
+    "published_values": [
+      {
+        "measurement_id": "ntrs:20210011385#s1#m1",
+        "study_id": "ntrs:20210011385#s1",
+        "paper_id": "ntrs:20210011385",
+        "measurement_as_reported": "steady spread rate",
+        "measurement_family": "flame_spread_rate",
+        "value": 2.2,
+        "unit": "mm/s",
+        "uncertainty": null,
+        "normalized_value": null,
+        "normalized_unit": null,
+        "conversion_note": null,
+        "verification_status": "verified",
+        "provenance": {
+          "page_number": 31,
+          "location": "page"
+        },
+        "synthetic": false,
+        "label": "BASS-II PMMA 100 µm, ISS",
+        "method": "Opposed-flow spread on the ISS Microgravity Science Glovebox. The stated rate is for the steady period before the flow was cut off.",
+        "evidence_class": "directly_observed_result",
+        "training_eligible": false,
+        "limitation": "Manually transcribed publication value; not an imported raw experimental run."
+      },
+      {
+        "measurement_id": "ntrs:20210011385#s2#m1",
+        "study_id": "ntrs:20210011385#s2",
+        "paper_id": "ntrs:20210011385",
+        "measurement_as_reported": "steady spread rate, 100 µm sheet",
+        "measurement_family": "flame_spread_rate",
+        "value": 2.8,
+        "unit": "mm/s",
+        "uncertainty": null,
+        "normalized_value": null,
+        "normalized_unit": null,
+        "conversion_note": null,
+        "verification_status": "verified",
+        "provenance": {
+          "page_number": 34,
+          "location": "page"
+        },
+        "synthetic": false,
+        "label": "PMMA 100 µm, quiescent 1g model",
+        "method": "Computational model of downward spread in a quiescent 1g environment. This is a reported model result, not an ISS measurement.",
+        "evidence_class": "model_prediction",
+        "training_eligible": false,
+        "limitation": "Manually transcribed publication value; not an imported raw experimental run."
+      },
+      {
+        "measurement_id": "ntrs:20210011385#s3#m1",
+        "study_id": "ntrs:20210011385#s3",
+        "paper_id": "ntrs:20210011385",
+        "measurement_as_reported": "extinction velocity",
+        "measurement_family": "extinction_velocity",
+        "value": 1.5,
+        "unit": "cm/s",
+        "uncertainty": null,
+        "normalized_value": null,
+        "normalized_unit": null,
+        "conversion_note": null,
+        "verification_status": "verified",
+        "provenance": {
+          "page_number": 34,
+          "location": "figure:2.12"
+        },
+        "synthetic": false,
+        "label": "PMMA 100 µm model extinction, 21% O2",
+        "method": "Computational extinction velocity reported for the 100 µm PMMA sheet. The paper says it closely matches the BASS-II experiments.",
+        "evidence_class": "model_prediction",
+        "training_eligible": false,
+        "limitation": "Manually transcribed publication value; not an imported raw experimental run."
+      },
+      {
+        "measurement_id": "ntrs:20210011385#s4#m1",
+        "study_id": "ntrs:20210011385#s4",
+        "paper_id": "ntrs:20210011385",
+        "measurement_as_reported": "extinction velocity",
+        "measurement_family": "extinction_velocity",
+        "value": 3.5,
+        "unit": "cm/s",
+        "uncertainty": null,
+        "normalized_value": null,
+        "normalized_unit": null,
+        "conversion_note": null,
+        "verification_status": "verified",
+        "provenance": {
+          "page_number": 34,
+          "location": "figure:2.12"
+        },
+        "synthetic": false,
+        "label": "PMMA 100 µm model extinction, 16% O2",
+        "method": "Computational extinction velocity at the lower oxygen level, same sheet and model as the 21 percent case.",
+        "evidence_class": "model_prediction",
+        "training_eligible": false,
+        "limitation": "Manually transcribed publication value; not an imported raw experimental run."
+      }
+    ],
+    "exclusions": [],
+    "limitations": [
+      "Groups are separated by dataset and run; no cross-condition inference or significance test is performed.",
+      "Means are descriptive arithmetic summaries, not independent replicate estimates.",
+      "Uncertainty and calibration must be established from original experiment documentation."
+    ]
+  },
+  "model_feasibility": {
+    "status": "unavailable",
+    "reason": "No trained, independently evaluated model artifact exists. Imported measurements alone do not validate a predictor.",
+    "validated_measurements": 0,
+    "experimental_runs": 0,
+    "evaluation": null,
+    "required": [
+      "Define target, units, inputs and calibrated uncertainty.",
+      "Review comparable authentic runs and condition coverage.",
+      "Split by run/investigation before feature processing to prevent leakage.",
+      "Evaluate baseline against held-out investigations; document errors and applicability boundaries."
+    ],
+    "disclaimer": "Independent research tool; not NASA-endorsed and not a certified fire-safety system."
+  },
+  "sources": [
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "25 Years Ago: Fire Aboard Space Station Mir",
+      "organization": "NASA",
+      "original_url": "https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/",
+      "passage": "The flame blocked the evacuation route to the Soyuz spacecraft docked at the aft end of Kvant-1",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2022-02-23",
+      "retrieval_status": "metadata_verified",
+      "source_id": "mir-fire",
+      "source_section": "Oxygen generator canister incident and emergency response",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "A Researcher's Guide to: Combustion Science",
+      "organization": "NASA",
+      "original_url": "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/",
+      "passage": "October 2015 Edition",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2016-07-06",
+      "retrieval_status": "metadata_verified",
+      "source_id": "guide-landing",
+      "source_section": "October 2015 Edition",
+      "trust_classification": "official_nasa",
+      "update_date": "2024-05-23",
+      "url": "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Advanced Combustion Microgravity Experiment (ACME) Facility",
+      "organization": "NASA",
+      "original_url": "https://science.nasa.gov/biological-physical/investigations/acme/",
+      "passage": "ACME's BRE experiment is focused on spacecraft fire prevention.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "acme-science",
+      "source_section": "Mission Description; Space Applications",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://science.nasa.gov/biological-physical/investigations/acme/"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "application/pdf",
+      "dataset_version": null,
+      "document_id": "20210021781",
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Advanced Combustion via Microgravity Experiments: CFI-G",
+      "organization": "NASA",
+      "original_url": "https://ntrs.nasa.gov/api/citations/20210021781/downloads/JASMAC%20ACME%20paper%2020210921.pdf",
+      "passage": "observe non-premixed quasi-steady spherical cool flames on porous burners.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2021",
+      "retrieval_status": "metadata_verified",
+      "source_id": "cfig-paper",
+      "source_section": "Section 3.6 Cool Flames Investigation with Gases",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/api/citations/20210021781/downloads/JASMAC%20ACME%20paper%2020210921.pdf"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "19890014267",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "ca230f7aa07815a8478692b1181c2f05ee9fa8a90eac4d6bb6c7255d4a32feb7"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "9c41fa94782f42d6c2dcc1e341b4f43b95800e7c5513d133c31f60c3e6758bd0"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "An experimental study of opposed flow diffusion flame extinction over a thin fuel in microgravity",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/19890014267",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        },
+        {
+          "corrected_value": 1989,
+          "field": "year",
+          "original_value": 2019,
+          "paper_id": "ntrs:19890014267",
+          "publication_date": "1989-02-01",
+          "reason": "Official NTRS Publication Date takes precedence over acquisition or update dates.",
+          "source_url": "https://ntrs.nasa.gov/citations/19890014267",
+          "verified_date": "2026-11-14"
+        }
+      ],
+      "publication_date": "1989-02-01",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:19890014267",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/19890014267"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Burning Rate Emulator (BRE)",
+      "organization": "NASA",
+      "original_url": "https://science.nasa.gov/biological-physical/investigations/bre/",
+      "passage": "A flat porous burner fed with gaseous fuel simulates the burning of solid and liquid fuels.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "bre-science",
+      "source_section": "Science Objectives; Experiment Description; Space Applications",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://science.nasa.gov/biological-physical/investigations/bre/"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": "4",
+      "document_id": "PSI-25",
+      "doi": "10.60555/4qc4-de67",
+      "extraction_method": "Official PSI landing-page text retrieved through web search index; direct open returns no readable content; no raw data download",
+      "file_checksums": [],
+      "license": "CC0-1.0",
+      "name": "Burning and Suppression of Solids - II (BASS-II)",
+      "organization": "NASA",
+      "original_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2022-12-31",
+      "retrieval_status": "indexed_metadata",
+      "source_id": "psi-psi-25",
+      "source_section": "Investigation header, Objectives, Version History",
+      "trust_classification": "official_nasa_repository",
+      "update_date": "2025-11-24",
+      "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20210011385",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "3416cb203fe6dfef462fcd7f36d4e40eb9c0d51d864bc6fd9c4c9739a197ec36"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Burning and Suppression of Solids–II  (BASS-II) Summary Report",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20210011385",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        }
+      ],
+      "publication_date": "2021",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20210011385",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20210011385"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "application/pdf",
+      "dataset_version": null,
+      "document_id": "NP-2015-10-034-JSC",
+      "doi": null,
+      "extraction_method": "Official 56-page PDF text inspected; historical context only",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Combustion Science Researcher's Guide, October 2015 edition",
+      "organization": "NASA",
+      "original_url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf",
+      "passage": "The Smoke Aerosol Measurement Experiment (SAME) examined the particle-size distribution of the smoke from spacecraft materials.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2015-10",
+      "retrieval_status": "metadata_verified",
+      "source_id": "guide-2015",
+      "source_section": "PDF pages 12-14 (FLEX); 21-22 (BASS); 26 (detection); 33-34 (cool flames); 45 (MSG)",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20150008962",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "db1d9c7f91bbc2fc438b6ea63390d9d1c310cb7930a058336fe47c3e38499b5a"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "50590fd7e6619203eb75a46f49e83556e6798a53e67869cd52ea89961c692c30"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Concurrent Flame Growth, Spread and Extinction over Composite Fabric Samples in Low Speed Purely Forced Flow in Microgravity",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20150008962",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        },
+        {
+          "corrected_value": 2015,
+          "field": "year",
+          "original_value": 2019,
+          "paper_id": "ntrs:20150008962",
+          "publication_date": "2015-05-17",
+          "reason": "Official NTRS Publication Date takes precedence over acquisition or update dates.",
+          "source_url": "https://ntrs.nasa.gov/citations/20150008962",
+          "verified_date": "2026-11-14"
+        }
+      ],
+      "publication_date": "2015-05-17",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20150008962",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20150008962"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": "1",
+      "document_id": "PSI-62",
+      "doi": "10.60555/e9xp-ex83",
+      "extraction_method": "Official PSI landing-page text retrieved through web search index; direct open returns no readable content; no raw data download",
+      "file_checksums": [],
+      "license": "CC0-1.0",
+      "name": "Concurrent Flame Spread Modeling using Flamelet Generated Manifolds in Microgravity with Comparison to BASS Experiments using Two-Color Tomography",
+      "organization": "NASA",
+      "original_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-62",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2025-11-14",
+      "retrieval_status": "indexed_metadata",
+      "source_id": "psi-psi-62",
+      "source_section": "Investigation header, Objectives, Version History",
+      "trust_classification": "official_nasa_repository",
+      "update_date": "2025-11-14",
+      "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-62"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20150023456",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "f36ae2c4b5abd968ddb87286e684c3bdd8a3391f2719afaa29087009a53d4f74"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "b4f6ca983e2792c33a0b92220a791a818f426bb635b94f7fd33dc8c9c471e79d"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20150023456",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        },
+        {
+          "corrected_value": 2015,
+          "field": "year",
+          "original_value": 2019,
+          "paper_id": "ntrs:20150023456",
+          "publication_date": "2015-11-01",
+          "reason": "Official NTRS Publication Date takes precedence over acquisition or update dates.",
+          "source_url": "https://ntrs.nasa.gov/citations/20150023456",
+          "verified_date": "2026-11-14"
+        }
+      ],
+      "publication_date": "2015-11-01",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20150023456",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20150023456"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20205004657",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "abeaac136401575ddf2731ce38f4491475cdb0df256f736fa025560c35315d07"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "3096713e1da5122b0d06235a0194ecc2ccaa0fac0df40d11095241401bfb916a"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Effects of Confinement on Flame Spread in Microgravity",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20205004657",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        }
+      ],
+      "publication_date": "2021",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20205004657",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20205004657"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Electric-Field Effects on Laminar Diffusion Flames",
+      "organization": "NASA",
+      "original_url": "https://science.nasa.gov/biological-physical/investigations/e-field-flames/",
+      "passage": "The E-FIELD Flames research is not being conducted to serve any space applications",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "efield-science",
+      "source_section": "Science Objectives; Space Applications",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://science.nasa.gov/biological-physical/investigations/e-field-flames/"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20050199458",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "64cf85c519d467de3fc26a4b3df9047bc20f80fb2806fcaef8604a8c09f9253c"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "3a648e5b326d74bc278bd366e07704300c59d7806c1754d136692d8d95910e37"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Experiments Developed to Study Microgravity Smoldering Combustion",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20050199458",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        },
+        {
+          "corrected_value": 2001,
+          "field": "year",
+          "original_value": 2018,
+          "paper_id": "ntrs:20050199458",
+          "publication_date": "2001-03-01",
+          "reason": "Official NTRS Publication Date takes precedence over acquisition or update dates.",
+          "source_url": "https://ntrs.nasa.gov/citations/20050199458",
+          "verified_date": "2026-11-14"
+        }
+      ],
+      "publication_date": "2001-03-01",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20050199458",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20050199458"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20240007628",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "182a5b2654525e0e7eb1c85eb2a7a6046825af3148670f0304f965f5ba58ad69"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "32929bc29471668729980478e60db91cb374ed8ae800288a635ced70fcb59024"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Extinction of Solid Diffusion Flame in Microgravity: Details of Quenching and Blowoff Processes",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20240007628",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        }
+      ],
+      "publication_date": "2024",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20240007628",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20240007628"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Fire Detector",
+      "organization": "NASA",
+      "original_url": "https://spinoff.nasa.gov/node/9407",
+      "passage": "it is less susceptible to false alarms.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "1978",
+      "retrieval_status": "metadata_verified",
+      "source_id": "spinoff-detector",
+      "source_section": "Originally published in 1978",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://spinoff.nasa.gov/node/9407"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Fireman's Air Tanks",
+      "organization": "NASA",
+      "original_url": "https://spinoff.nasa.gov/node/9582",
+      "passage": "Together with NASA's Johnson Space Center, A-T-O Inc.'s Scott Aviation has developed light-weight firefighter's air tanks.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "1976",
+      "retrieval_status": "metadata_verified",
+      "source_id": "spinoff-air",
+      "source_section": "Originally published in 1976",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://spinoff.nasa.gov/node/9582"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": "5",
+      "document_id": "PSI-69",
+      "doi": "10.60555/mbq8-0451",
+      "extraction_method": "Official PSI landing-page text retrieved through web search index; direct open returns no readable content; no raw data download",
+      "file_checksums": [],
+      "license": "CC0-1.0",
+      "name": "Flame Extinguishment Experiment (FLEX)",
+      "organization": "NASA",
+      "original_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2016-07-31",
+      "retrieval_status": "indexed_metadata",
+      "source_id": "psi-psi-69",
+      "source_section": "Investigation header, Objectives, Version History",
+      "trust_classification": "official_nasa_repository",
+      "update_date": "2025-06-06",
+      "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "application/pdf",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Official presentation text inspected; historical program description, not current status",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "HEO Overview and Accomplishments Update: Cool Flames Investigation",
+      "organization": "NASA",
+      "original_url": "https://www.nasa.gov/wp-content/uploads/2016/05/nac_heo_overviewtagged.pdf",
+      "passage": "CFI is an outgrowth from the Flame Extinguishment Experiment (FLEX)",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "cfi-history",
+      "source_section": "Slide 11, historical May/June 2017 CFI status",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/05/nac_heo_overviewtagged.pdf"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20090014812",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "c40c28507928bd5d82c1ead8d317008d2c73560478e3e3492692d0840cc08b11"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "02fc4fc65a851cd8a1de270579855e610e33c1fa8608ab500e7e26ec821e652b"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Multi-User Droplet Combustion Apparatus - Flame Extinguishment Experiment",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20090014812",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        }
+      ],
+      "publication_date": "2019",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20090014812",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20090014812"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "NASA Glenn Combustion Science",
+      "organization": "NASA",
+      "original_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "passage": "examines the burning and extinction characteristics of a wide variety of fuel samples in microgravity.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "nasa-combustion",
+      "source_section": "Archived Combustion Experiments; facilities",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "NASA PSI Research Opportunity: eligible investigations",
+      "organization": "NASA",
+      "original_url": "https://science.nasa.gov/physical-sciences-informatics-psi/nasa-psi-research-opportunity/",
+      "passage": "The following is the list of investigations eligible for PSI proposals in the E.12 program element:",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "psi-opportunity",
+      "source_section": "Combustion Science rows 7-25",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://science.nasa.gov/physical-sciences-informatics-psi/nasa-psi-research-opportunity/"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Attempted browser retrieval; requested URL inaccessible, filtered repository route returned no readable page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "NASA Physical Sciences Informatics repository",
+      "organization": "NASA",
+      "original_url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+      "passage": null,
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "direct_access_unavailable",
+      "source_id": "psi-search",
+      "trust_classification": "official_nasa_repository",
+      "update_date": null,
+      "url": "https://psi.nasa.gov/physci/repo/search?q=combustion"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "NASA Safety and Mission Assurance: Apollo 1",
+      "organization": "NASA",
+      "original_url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+      "passage": "NASA severely restricted and controlled the number of combustible materials in the spacecraft",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "apollo-1",
+      "source_section": "Tragedy on the Launchpad; AS-204 Lessons Learned",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "NASA Safety and Mission Assurance: Apollo 13",
+      "organization": "NASA",
+      "original_url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+      "passage": "the redesign and recertification of the Service Module oxygen storage system",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "apollo-13",
+      "source_section": "Accident Investigation; Apollo 13 Lessons Learned",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "video/youtube",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Link inspected; video retrieval failed; no transcript or scientific claims ingested",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "NASA ScienceCasts: The Power of Studying Combustion on the ISS",
+      "organization": "NASA",
+      "original_url": "https://www.youtube.com/watch?v=W1oXykoz9zg",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "unavailable",
+      "source_id": "education-sciencecasts",
+      "trust_classification": "user_supplied_educational_link_unverified",
+      "update_date": null,
+      "url": "https://www.youtube.com/watch?v=W1oXykoz9zg"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "New File Download Process for PSI Large Requests",
+      "organization": "NASA",
+      "original_url": "https://science.nasa.gov/uncategorized/new-file-download-process-for-large-requestspsi-new-file-download-process/",
+      "passage": "Download requests larger than 1GB are now delivered via email, rather than downloading directly from the website.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2025-09-29",
+      "retrieval_status": "metadata_verified",
+      "source_id": "psi-downloads",
+      "source_section": "How Does it Work?",
+      "trust_classification": "official_nasa",
+      "update_date": "2025-09-29",
+      "url": "https://science.nasa.gov/uncategorized/new-file-download-process-for-large-requestspsi-new-file-download-process/"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "New Technology for the Fire Attire",
+      "organization": "NASA",
+      "original_url": "https://spinoff.nasa.gov/node/9918",
+      "passage": "Project FIRES (Firefighter's Integrated Response Equipment System) involves applications of advanced materials and design concepts, derived from Apollo",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "1982",
+      "retrieval_status": "metadata_verified",
+      "source_id": "spinoff-attire",
+      "source_section": "Originally published in 1982; Project FIRES",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://spinoff.nasa.gov/node/9918"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": "20170000230",
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Work of the US Government. Public Use Permitted.",
+      "name": "Operation and Development Status of the Spacecraft Fire Experiments",
+      "organization": "NASA",
+      "original_url": "https://ntrs.nasa.gov/citations/20170000230",
+      "passage": "determine how rapidly a large scale fire grows in low-gravity",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2016-07-10",
+      "retrieval_status": "metadata_verified",
+      "source_id": "saffire-status",
+      "source_section": "Abstract; Publication Date",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20170000230"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20170000230",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "4edb2551f09e46e7004d6900d4461a64121d998971814e758109cacb327f7b87"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "34c6a5a3a2f3dcca7eec796596dee842a59d029635416cbf5b4916516bd7218c"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20170000230",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        },
+        {
+          "corrected_value": 2016,
+          "field": "year",
+          "original_value": 2019,
+          "paper_id": "ntrs:20170000230",
+          "publication_date": "2016-07-10",
+          "reason": "Official NTRS Publication Date takes precedence over acquisition or update dates.",
+          "source_url": "https://ntrs.nasa.gov/citations/20170000230",
+          "verified_date": "2026-11-14"
+        }
+      ],
+      "publication_date": "2016-07-10",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20170000230",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20170000230"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20150019858",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "9698a9e90deb9a54e32c72773ff0cf65750a65196891f1d847cd70916c7c7a6a"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "e9c1286f0903700c0ae180a574debb6826f3676a072df2eeb926c22955a09831"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Results from On-Board CSA-CP and CDM Sensor Readings During the Burning and Suppression of Solids II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20150019858",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        },
+        {
+          "corrected_value": 2015,
+          "field": "year",
+          "original_value": 2019,
+          "paper_id": "ntrs:20150019858",
+          "publication_date": "2015-07-12",
+          "reason": "Official NTRS Publication Date takes precedence over acquisition or update dates.",
+          "source_url": "https://ntrs.nasa.gov/citations/20150019858",
+          "verified_date": "2026-11-14"
+        }
+      ],
+      "publication_date": "2015-07-12",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20150019858",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20150019858"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": "4",
+      "document_id": "PSI-101",
+      "doi": "10.60555/2np7-jv14",
+      "extraction_method": "Official PSI landing-page text retrieved through web search index; direct open returns no readable content; no raw data download",
+      "file_checksums": [],
+      "license": "CC0-1.0",
+      "name": "Smoke Aerosol Measurement Experiment-Reflight (SAME-R)",
+      "organization": "NASA",
+      "original_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2024-09-18",
+      "retrieval_status": "indexed_metadata",
+      "source_id": "psi-psi-101",
+      "source_section": "Investigation header, Objectives, Version History",
+      "trust_classification": "official_nasa_repository",
+      "update_date": null,
+      "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": "20200000361",
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Public Use Permitted.",
+      "name": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+      "organization": "NASA",
+      "original_url": "https://ntrs.nasa.gov/citations/20200000361",
+      "passage": "The Solid Fuel Ignition and Extinction (SoFIE) project studies ignition and flammability of solid spacecraft materials",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2019-11-20",
+      "retrieval_status": "metadata_verified",
+      "source_id": "sofie-paper",
+      "source_section": "Abstract (2019 planning description)",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20200000361"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20200000361",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "04df711b5e25b4c8936e2354f3c4092fae84b314df2af2cb998972626bda049c"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "dc42805d92fb9073cda48d76b9aa3fdf9fd26b7780d537a9e8e1b73ac433e7b0"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20200000361",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        },
+        {
+          "corrected_value": 2019,
+          "field": "year",
+          "original_value": 2020,
+          "paper_id": "ntrs:20200000361",
+          "publication_date": "2019-11-20",
+          "reason": "Official NTRS Publication Date takes precedence over acquisition or update dates.",
+          "source_url": "https://ntrs.nasa.gov/citations/20200000361",
+          "verified_date": "2026-11-14"
+        }
+      ],
+      "publication_date": "2019-11-20",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20200000361",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20200000361"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "video/youtube",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Link inspected; cache miss; title, date and challenge affiliation not independently verified",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Space Apps challenge video (user-provided link)",
+      "organization": "NASA",
+      "original_url": "https://www.youtube.com/embed/AVuEiKxOpc0?feature=oembed",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "unavailable",
+      "source_id": "education-challenge",
+      "trust_classification": "user_supplied_educational_link_unverified",
+      "update_date": null,
+      "url": "https://www.youtube.com/embed/AVuEiKxOpc0?feature=oembed"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "application/pdf",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Spacecraft Fire Safety Demonstration (Saffire) fact sheet",
+      "organization": "NASA",
+      "original_url": "https://www.nasa.gov/wp-content/uploads/2025/07/spacecraft-fire-safety-demonstration-saffire.pdf",
+      "passage": "established to investigate large-scale flame growth and material flammability limits in space.",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "saffire-facts",
+      "source_section": "Saffire-I; Saffire-II; Saffire-III",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/07/spacecraft-fire-safety-demonstration-saffire.pdf"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": "4",
+      "document_id": "PSI-98",
+      "doi": "10.60555/0t15-1z43",
+      "extraction_method": "Official PSI landing-page text retrieved through web search index; direct open returns no readable content; no raw data download",
+      "file_checksums": [],
+      "license": "CC0-1.0",
+      "name": "Spacecraft Fire Safety Experiment-I (Saffire-I)",
+      "organization": "NASA",
+      "original_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": "2024-09-18",
+      "retrieval_status": "indexed_metadata",
+      "source_id": "psi-psi-98",
+      "source_section": "Investigation header, Objectives, Version History",
+      "trust_classification": "official_nasa_repository",
+      "update_date": "2025-06-03",
+      "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98"
+    },
+    {
+      "access_date": "2026-11-05T18:58:48+00:00",
+      "content_type": "application/pdf",
+      "dataset_version": "2026-11-05T18:58:48+00:00",
+      "document_identifier": "20260001600",
+      "doi": null,
+      "extraction_method": "PyMuPDF (existing corpus)",
+      "file_checksums": [
+        {
+          "artifact": "extracted_text",
+          "sha256": "775691f9efad096bda3274fcb958489e6e67773f6ee493ef1588a0734254363d"
+        },
+        {
+          "artifact": "original_pdf",
+          "sha256": "61b45e19f6853f94e79af9dc51bd7dbe9352062494bcadf7861f2af2859ac50a"
+        }
+      ],
+      "license": "Check original NTRS record and third-party rights before redistribution.",
+      "name": "Spacecraft Fire Safety Predictions using Verified Saffire Model",
+      "organization": "NASA Technical Reports Server",
+      "original_url": "https://ntrs.nasa.gov/citations/20260001600",
+      "processing_history": [
+        {
+          "method": "existing_manifest_migration",
+          "version": "research-ingest/1.0.0"
+        }
+      ],
+      "publication_date": "2026",
+      "retrieval_status": "text_available",
+      "source_id": "ntrs:20260001600",
+      "synthetic": false,
+      "trust_classification": "primary_publication",
+      "update_date": null,
+      "url": "https://ntrs.nasa.gov/citations/20260001600"
+    },
+    {
+      "access_date": "2026-11-14",
+      "checksum_sha256": null,
+      "content_type": "text/html",
+      "dataset_version": null,
+      "document_id": null,
+      "doi": null,
+      "extraction_method": "Manual source-backed metadata transcription from retrieved official page",
+      "file_checksums": [],
+      "license": "Review source-specific rights; NASA hosting does not establish public domain status for third-party content.",
+      "name": "Studying Combustion and Fire Safety",
+      "organization": "NASA",
+      "original_url": "https://www.nasa.gov/missions/station/iss-research/studying-combustion-and-fire-safety/",
+      "passage": "FLEX-2 looked at how quickly fuel droplets burn, the conditions required for soot to form",
+      "processing_history": [
+        {
+          "date": "2026-11-14",
+          "method": "Curated metadata review; no raw experimental file downloaded",
+          "software_version": "research-catalog-v1"
+        }
+      ],
+      "publication_date": null,
+      "retrieval_status": "metadata_verified",
+      "source_id": "station-fire-review",
+      "source_section": "FLEX, FLEX-2 and ACME overview",
+      "trust_classification": "official_nasa",
+      "update_date": null,
+      "url": "https://www.nasa.gov/missions/station/iss-research/studying-combustion-and-fire-safety/"
+    }
+  ],
+  "datasets": [],
+  "corpus_version": "2026-11-05T18:58:48+00:00",
+  "disclaimer": "Independent research tool; not NASA-endorsed and not a certified fire-safety system."
+}

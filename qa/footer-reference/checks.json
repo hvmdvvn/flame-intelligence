@@ -1,0 +1,76 @@
+[
+  {
+    "width": 320,
+    "pageWidth": 320,
+    "wordmarkWidth": 320,
+    "wordmarkScrollWidth": 320,
+    "textLeft": 0,
+    "textRight": 320,
+    "textHeight": 189.625,
+    "stageHeight": 138,
+    "font": "900 89.6px / 80.64px body, \"body Fallback\", \"Segoe UI\", sans-serif",
+    "text": "fire in\nfree-fall"
+  },
+  {
+    "width": 390,
+    "pageWidth": 390,
+    "wordmarkWidth": 390,
+    "wordmarkScrollWidth": 390,
+    "textLeft": 0,
+    "textRight": 390,
+    "textHeight": 230.28125,
+    "stageHeight": 168,
+    "font": "900 109.2px / 98.28px body, \"body Fallback\", \"Segoe UI\", sans-serif",
+    "text": "fire in\nfree-fall",
+    "violations": []
+  },
+  {
+    "width": 768,
+    "pageWidth": 768,
+    "wordmarkWidth": 768,
+    "wordmarkScrollWidth": 768,
+    "textLeft": 8.1875,
+    "textRight": 759.8125,
+    "textHeight": 156,
+    "stageHeight": 100,
+    "font": "900 129.024px / 122.573px body, \"body Fallback\", \"Segoe UI\", sans-serif",
+    "text": "fire in free-fall"
+  },
+  {
+    "width": 1440,
+    "pageWidth": 1440,
+    "wordmarkWidth": 1440,
+    "wordmarkScrollWidth": 1440,
+    "textLeft": 15.328125,
+    "textRight": 1424.671875,
+    "textHeight": 292,
+    "stageHeight": 187,
+    "font": "900 241.92px / 229.824px body, \"body Fallback\", \"Segoe UI\", sans-serif",
+    "text": "fire in free-fall",
+    "violations": []
+  },
+  {
+    "width": 1887,
+    "pageWidth": 1887,
+    "wordmarkWidth": 1887,
+    "wordmarkScrollWidth": 1887,
+    "textLeft": 20.109375,
+    "textRight": 1866.875,
+    "textHeight": 383,
+    "stageHeight": 245,
+    "font": "900 317.016px / 301.165px body, \"body Fallback\", \"Segoe UI\", sans-serif",
+    "text": "fire in free-fall"
+  },
+  {
+    "width": 1920,
+    "pageWidth": 1920,
+    "wordmarkWidth": 1920,
+    "wordmarkScrollWidth": 1920,
+    "textLeft": 20.4375,
+    "textRight": 1899.546875,
+    "textHeight": 390,
+    "stageHeight": 250,
+    "font": "900 322.56px / 306.432px body, \"body Fallback\", \"Segoe UI\", sans-serif",
+    "text": "fire in free-fall"
+  }
+]

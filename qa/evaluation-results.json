@@ -1,0 +1,195 @@
+{
+  "suite_version": "source-regression-1",
+  "executed_at": "2026-11-13T20:52:21+00:00",
+  "corpus_version": "2026-11-05T18:58:48+00:00",
+  "retrieval": "fts5",
+  "generative_provider": "none",
+  "passed": 6,
+  "total": 6,
+  "results": [
+    {
+      "id": "confinement",
+      "passed": true,
+      "mode": "extractive",
+      "checks": {
+        "expected_mode": true,
+        "quote_and_citation_resolution": true,
+        "expected_source": true,
+        "numerical_fidelity": true
+      },
+      "retrieved_claims": [
+        {
+          "paper_id": "ntrs:20205004657",
+          "page_number": 9,
+          "chunk_id": "ntrs:20205004657#p9#c2"
+        },
+        {
+          "paper_id": "ntrs:20210011385",
+          "page_number": 50,
+          "chunk_id": "ntrs:20210011385#p50#c3"
+        },
+        {
+          "paper_id": "ntrs:20205004657",
+          "page_number": 2,
+          "chunk_id": "ntrs:20205004657#p2#c3"
+        },
+        {
+          "paper_id": "ntrs:20205004657",
+          "page_number": 2,
+          "chunk_id": "ntrs:20205004657#p2#c3"
+        },
+        {
+          "paper_id": "ntrs:20205004657",
+          "page_number": 7,
+          "chunk_id": "ntrs:20205004657#p7#c1"
+        }
+      ],
+      "reference": {
+        "url": "https://ntrs.nasa.gov/citations/20205004657",
+        "pages": [
+          2,
+          9
+        ]
+      }
+    },
+    {
+      "id": "droplet",
+      "passed": true,
+      "mode": "extractive",
+      "checks": {
+        "expected_mode": true,
+        "quote_and_citation_resolution": true,
+        "expected_source": true,
+        "numerical_fidelity": true
+      },
+      "retrieved_claims": [
+        {
+          "paper_id": "ntrs:20150023456",
+          "page_number": 8,
+          "chunk_id": "ntrs:20150023456#p8#c5"
+        },
+        {
+          "paper_id": "ntrs:20200000361",
+          "page_number": 3,
+          "chunk_id": "ntrs:20200000361#p3#c1"
+        },
+        {
+          "paper_id": "ntrs:20090014812",
+          "page_number": 1,
+          "chunk_id": "ntrs:20090014812#p1#c4"
+        },
+        {
+          "paper_id": "ntrs:20150023456",
+          "page_number": 7,
+          "chunk_id": "ntrs:20150023456#p7#c2"
+        },
+        {
+          "paper_id": "ntrs:20090014812",
+          "page_number": 3,
+          "chunk_id": "ntrs:20090014812#p3#c1"
+        }
+      ],
+      "reference": {
+        "url": "https://ntrs.nasa.gov/citations/20150023456",
+        "pages": [
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "id": "bass-quantitative",
+      "passed": true,
+      "mode": "extractive",
+      "checks": {
+        "expected_mode": true,
+        "quote_and_citation_resolution": true,
+        "expected_source": true,
+        "numerical_fidelity": true
+      },
+      "retrieved_claims": [
+        {
+          "paper_id": "ntrs:20210011385",
+          "page_number": 31,
+          "chunk_id": "ntrs:20210011385#p31#c1"
+        },
+        {
+          "paper_id": "ntrs:20210011385",
+          "page_number": 21,
+          "chunk_id": "ntrs:20210011385#p21#c2"
+        },
+        {
+          "paper_id": "ntrs:20210011385",
+          "page_number": 25,
+          "chunk_id": "ntrs:20210011385#p25#c4"
+        },
+        {
+          "paper_id": "ntrs:20210011385",
+          "page_number": 31,
+          "chunk_id": "ntrs:20210011385#p31#c1"
+        },
+        {
+          "paper_id": "ntrs:20210011385",
+          "page_number": 31,
+          "chunk_id": "ntrs:20210011385#p31#c1"
+        }
+      ],
+      "reference": {
+        "url": "https://ntrs.nasa.gov/citations/20210011385",
+        "pages": [
+          31
+        ]
+      }
+    },
+    {
+      "id": "unsupported-certification",
+      "passed": true,
+      "mode": "insufficient",
+      "checks": {
+        "expected_mode": true,
+        "quote_and_citation_resolution": true,
+        "expected_source": true,
+        "numerical_fidelity": true
+      },
+      "retrieved_claims": [],
+      "reference": {
+        "basis": "No certification or evaluated partial-gravity risk model exists in corpus"
+      }
+    },
+    {
+      "id": "unsupported-quantity",
+      "passed": true,
+      "mode": "insufficient",
+      "checks": {
+        "expected_mode": true,
+        "quote_and_citation_resolution": true,
+        "expected_source": true,
+        "numerical_fidelity": true
+      },
+      "retrieved_claims": [],
+      "reference": {
+        "basis": "No supporting source in this corpus"
+      }
+    },
+    {
+      "id": "instruction-injection",
+      "passed": true,
+      "mode": "insufficient",
+      "checks": {
+        "expected_mode": true,
+        "quote_and_citation_resolution": true,
+        "expected_source": true,
+        "numerical_fidelity": true
+      },
+      "retrieved_claims": [],
+      "reference": {
+        "basis": "Instruction-like input must not execute as scientific evidence"
+      }
+    }
+  ],
+  "limitations": [
+    "Small engineering regression set, not expert-scored scientific validation",
+    "No semantic entailment, expert review, contradiction-resolution score or LLM performance is established."
+  ]
+}

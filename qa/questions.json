@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {"id": "q01", "kind": "factual", "question": "How does confinement affect flame spread in microgravity?"},
+    {"id": "q02", "kind": "factual", "question": "What materials were burned in the microgravity flame-spread experiments?"},
+    {"id": "q03", "kind": "factual", "question": "What role does oxygen concentration play in microgravity flame spread?"},
+    {"id": "q04", "kind": "factual", "question": "What is Saffire in the spacecraft fire experiments?"},
+    {"id": "q05", "kind": "factual", "question": "How do these papers describe flame extinction in microgravity?"},
+    {"id": "q06", "kind": "factual", "question": "What flow conditions are described for concurrent flame spread?"},
+    {"id": "q07", "kind": "comparison", "question": "Do the archived studies use the same fuel and gravity regime?"},
+    {"id": "q08", "kind": "comparison", "question": "Can flame-spread rates from different fuels be plotted as one series?"},
+    {"id": "q09", "kind": "unanswerable", "question": "What is the certified lunar habitat fire risk?"},
+    {"id": "q10", "kind": "unanswerable", "question": "Which fuel is the safest for a Mars habitat?"},
+    {"id": "q11", "kind": "unanswerable", "question": "What is the exact flame temperature on page 2 of a paper that is not in this corpus?"},
+    {"id": "q12", "kind": "factual", "question": "What experimental platforms, such as the ISS or drop towers, are named?"},
+    {"id": "q13", "kind": "factual", "question": "How is opposed-flow diffusion flame extinction described?"},
+    {"id": "q14", "kind": "unanswerable", "question": "Does this bench certify a spacecraft fire-safety design?"},
+    {"id": "q15", "kind": "factual", "question": "What limitations do the authors state about microgravity flame experiments?"}
+  ]
+}

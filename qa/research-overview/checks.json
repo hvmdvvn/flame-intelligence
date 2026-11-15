@@ -1,0 +1,477 @@
+[
+  {
+    "width": 320,
+    "errors": [],
+    "violations": [],
+    "samples": [
+      {
+        "section": "research-statistics",
+        "animation": "complete",
+        "counts": [
+          "20",
+          "12",
+          "720",
+          "4"
+        ],
+        "bars": [],
+        "width": 320,
+        "pageWidth": 320,
+        "rect": {
+          "x": 20,
+          "y": 398.4375,
+          "width": 280,
+          "height": 313.15625,
+          "top": 398.4375,
+          "right": 300,
+          "bottom": 711.59375,
+          "left": 20
+        }
+      },
+      {
+        "section": "editorial-section research-topics",
+        "animation": "complete",
+        "counts": [
+          "5",
+          "5",
+          "2",
+          "4",
+          "6",
+          "2",
+          "11",
+          "5",
+          "1"
+        ],
+        "bars": [
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "36.3636%",
+            "scale": 1
+          },
+          {
+            "width": "54.5455%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "100%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "9.09091%",
+            "scale": 1
+          }
+        ],
+        "width": 320,
+        "pageWidth": 320,
+        "rect": {
+          "x": 20,
+          "y": 182.921875,
+          "width": 280,
+          "height": 873.8125,
+          "top": 182.921875,
+          "right": 300,
+          "bottom": 1056.734375,
+          "left": 20
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "errors": [],
+    "violations": [],
+    "samples": [
+      {
+        "section": "research-statistics",
+        "animation": "complete",
+        "counts": [
+          "20",
+          "12",
+          "720",
+          "4"
+        ],
+        "bars": [],
+        "width": 390,
+        "pageWidth": 390,
+        "rect": {
+          "x": 20,
+          "y": 398.046875,
+          "width": 350,
+          "height": 313.15625,
+          "top": 398.046875,
+          "right": 370,
+          "bottom": 711.203125,
+          "left": 20
+        }
+      },
+      {
+        "section": "editorial-section research-topics",
+        "animation": "complete",
+        "counts": [
+          "5",
+          "5",
+          "2",
+          "4",
+          "6",
+          "2",
+          "11",
+          "5",
+          "1"
+        ],
+        "bars": [
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "36.3636%",
+            "scale": 1
+          },
+          {
+            "width": "54.5455%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "100%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "9.09091%",
+            "scale": 1
+          }
+        ],
+        "width": 390,
+        "pageWidth": 390,
+        "rect": {
+          "x": 20,
+          "y": 195.359375,
+          "width": 350,
+          "height": 849.0625,
+          "top": 195.359375,
+          "right": 370,
+          "bottom": 1044.421875,
+          "left": 20
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "errors": [],
+    "violations": [],
+    "samples": [
+      {
+        "section": "research-statistics",
+        "animation": "complete",
+        "counts": [
+          "20",
+          "12",
+          "720",
+          "4"
+        ],
+        "bars": [],
+        "width": 768,
+        "pageWidth": 768,
+        "rect": {
+          "x": 30.71875,
+          "y": 803.125,
+          "width": 706.546875,
+          "height": 197.234375,
+          "top": 803.125,
+          "right": 737.265625,
+          "bottom": 1000.359375,
+          "left": 30.71875
+        }
+      },
+      {
+        "section": "editorial-section research-topics",
+        "animation": "complete",
+        "counts": [
+          "5",
+          "5",
+          "2",
+          "4",
+          "6",
+          "2",
+          "11",
+          "5",
+          "1"
+        ],
+        "bars": [
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "36.3636%",
+            "scale": 1
+          },
+          {
+            "width": "54.5455%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "100%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "9.09091%",
+            "scale": 1
+          }
+        ],
+        "width": 768,
+        "pageWidth": 768,
+        "rect": {
+          "x": 30.71875,
+          "y": 325.0625,
+          "width": 706.546875,
+          "height": 589.4375,
+          "top": 325.0625,
+          "right": 737.265625,
+          "bottom": 914.5,
+          "left": 30.71875
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "errors": [],
+    "violations": [],
+    "samples": [
+      {
+        "section": "research-statistics",
+        "animation": "complete",
+        "counts": [
+          "20",
+          "12",
+          "720",
+          "4"
+        ],
+        "bars": [],
+        "width": 1440,
+        "pageWidth": 1440,
+        "rect": {
+          "x": 57.59375,
+          "y": 784.125,
+          "width": 1324.796875,
+          "height": 216.125,
+          "top": 784.125,
+          "right": 1382.390625,
+          "bottom": 1000.25,
+          "left": 57.59375
+        }
+      },
+      {
+        "section": "editorial-section research-topics",
+        "animation": "complete",
+        "counts": [
+          "5",
+          "5",
+          "2",
+          "4",
+          "6",
+          "2",
+          "11",
+          "5",
+          "1"
+        ],
+        "bars": [
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "36.3636%",
+            "scale": 1
+          },
+          {
+            "width": "54.5455%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "100%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "9.09091%",
+            "scale": 1
+          }
+        ],
+        "width": 1440,
+        "pageWidth": 1440,
+        "rect": {
+          "x": 57.59375,
+          "y": 281.75,
+          "width": 1324.796875,
+          "height": 676.796875,
+          "top": 281.75,
+          "right": 1382.390625,
+          "bottom": 958.546875,
+          "left": 57.59375
+        }
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "errors": [],
+    "violations": [],
+    "samples": [
+      {
+        "section": "research-statistics",
+        "animation": "complete",
+        "counts": [
+          "20",
+          "12",
+          "720",
+          "4"
+        ],
+        "bars": [],
+        "width": 1920,
+        "pageWidth": 1920,
+        "rect": {
+          "x": 240,
+          "y": 770.671875,
+          "width": 1440,
+          "height": 229.578125,
+          "top": 770.671875,
+          "right": 1680,
+          "bottom": 1000.25,
+          "left": 240
+        }
+      },
+      {
+        "section": "editorial-section research-topics",
+        "animation": "complete",
+        "counts": [
+          "5",
+          "5",
+          "2",
+          "4",
+          "6",
+          "2",
+          "11",
+          "5",
+          "1"
+        ],
+        "bars": [
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "36.3636%",
+            "scale": 1
+          },
+          {
+            "width": "54.5455%",
+            "scale": 1
+          },
+          {
+            "width": "18.1818%",
+            "scale": 1
+          },
+          {
+            "width": "100%",
+            "scale": 1
+          },
+          {
+            "width": "45.4545%",
+            "scale": 1
+          },
+          {
+            "width": "9.09091%",
+            "scale": 1
+          }
+        ],
+        "width": 1920,
+        "pageWidth": 1920,
+        "rect": {
+          "x": 240,
+          "y": 275.8125,
+          "width": 1440,
+          "height": 688,
+          "top": 275.8125,
+          "right": 1680,
+          "bottom": 963.8125,
+          "left": 240
+        }
+      }
+    ]
+  }
+]

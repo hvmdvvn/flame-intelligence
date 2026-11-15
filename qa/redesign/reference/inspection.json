@@ -1,0 +1,399 @@
+[
+  {
+    "label": "reference",
+    "status": 200,
+    "title": "BleckBl | Websites & AI Agents",
+    "url": "https://bleckbl.vercel.app/",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fonts": [
+      "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "Sora, \"Sora Fallback\", ui-sans-serif, system-ui, sans-serif"
+    ],
+    "headings": [
+      {
+        "text": "Websites and AI agents that ship.",
+        "fontSize": "48px",
+        "fontWeight": "600",
+        "lineHeight": "53.76px"
+      },
+      {
+        "text": "What we build so your brand actually moves.",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "lineHeight": "66px"
+      },
+      {
+        "text": "From brief to launch, without the mystery.",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "lineHeight": "66px"
+      },
+      {
+        "text": "Ideas & operations.",
+        "fontSize": "52px",
+        "fontWeight": "600",
+        "lineHeight": "78px"
+      },
+      {
+        "text": "Words from people we ship with.",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "lineHeight": "66px"
+      },
+      {
+        "text": "Book an appointment.",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "lineHeight": "66px"
+      },
+      {
+        "text": "Frequently asked questions.",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "lineHeight": "66px"
+      },
+      {
+        "text": "Ready to put BleckBl to work?",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "lineHeight": "66px"
+      }
+    ],
+    "footer": "BleckBl\n\nWebsites and AI agents. Remote, worldwide. Open for new projects.\n\nOn this page\nServices\nProcess\nIdeas\nClients\nFAQs\nAppointment\nContact\n\nPhone\n\n+92 300 0000000\n\nEmail\n\nbleckbl.ltd@gmail.com\n\nLocation\n\nRemote, worldwide\n\nbleckbl",
+    "buttons": [
+      {
+        "text": "Menu",
+        "ariaLabel": "Open menu"
+      },
+      {
+        "text": "Live now",
+        "ariaLabel": null
+      },
+      {
+        "text": "Agents",
+        "ariaLabel": null
+      },
+      {
+        "text": "Websites",
+        "ariaLabel": null
+      },
+      {
+        "text": "Briefs",
+        "ariaLabel": null
+      },
+      {
+        "text": "Live now",
+        "ariaLabel": null
+      },
+      {
+        "text": "Agents",
+        "ariaLabel": null
+      },
+      {
+        "text": "Websites",
+        "ariaLabel": null
+      },
+      {
+        "text": "Briefs",
+        "ariaLabel": null
+      },
+      {
+        "text": "",
+        "ariaLabel": "Show testimonial from Tanzeela Aqif"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Show testimonial from Hammad Riaz"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Show testimonial from Muhammad Omer"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Go to the Previous Month"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Go to the Next Month"
+      },
+      {
+        "text": "1",
+        "ariaLabel": "Sunday, November 1st, 2026"
+      }
+    ],
+    "animations": [
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "DIV"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "P"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "H1"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "P"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "DIV"
+      },
+      {
+        "playState": "finished",
+        "duration": 1000,
+        "target": "DIV"
+      },
+      {
+        "playState": "running",
+        "duration": 1000,
+        "target": "SPAN"
+      },
+      {
+        "playState": "running",
+        "duration": 1000,
+        "target": "SPAN"
+      },
+      {
+        "playState": "running",
+        "duration": 1000,
+        "target": "SPAN"
+      },
+      {
+        "playState": "running",
+        "duration": 32000,
+        "target": "DIV"
+      }
+    ]
+  },
+  {
+    "label": "reference",
+    "status": 200,
+    "title": "BleckBl | Websites & AI Agents",
+    "url": "https://bleckbl.vercel.app/",
+    "width": 390,
+    "scrollWidth": 390,
+    "fonts": [
+      "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+      "Sora, \"Sora Fallback\", ui-sans-serif, system-ui, sans-serif"
+    ],
+    "headings": [
+      {
+        "text": "Websites and AI agents that ship.",
+        "fontSize": "25.55px",
+        "fontWeight": "600",
+        "lineHeight": "28.616px"
+      },
+      {
+        "text": "What we build so your brand actually moves.",
+        "fontSize": "30.4px",
+        "fontWeight": "600",
+        "lineHeight": "45.6px"
+      },
+      {
+        "text": "From brief to launch, without the mystery.",
+        "fontSize": "30.4px",
+        "fontWeight": "600",
+        "lineHeight": "45.6px"
+      },
+      {
+        "text": "Ideas & operations.",
+        "fontSize": "33.6px",
+        "fontWeight": "600",
+        "lineHeight": "50.4px"
+      },
+      {
+        "text": "Words from people we ship with.",
+        "fontSize": "30.4px",
+        "fontWeight": "600",
+        "lineHeight": "45.6px"
+      },
+      {
+        "text": "Book an appointment.",
+        "fontSize": "30.4px",
+        "fontWeight": "600",
+        "lineHeight": "45.6px"
+      },
+      {
+        "text": "Frequently asked questions.",
+        "fontSize": "30.4px",
+        "fontWeight": "600",
+        "lineHeight": "45.6px"
+      },
+      {
+        "text": "Ready to put BleckBl to work?",
+        "fontSize": "30.4px",
+        "fontWeight": "600",
+        "lineHeight": "45.6px"
+      }
+    ],
+    "footer": "BleckBl\n\nWebsites and AI agents. Remote, worldwide. Open for new projects.\n\nOn this page\nServices\nProcess\nIdeas\nClients\nFAQs\nAppointment\nContact\n\nPhone\n\n+92 300 0000000\n\nEmail\n\nbleckbl.ltd@gmail.com\n\nLocation\n\nRemote, worldwide\n\nbleckbl",
+    "buttons": [
+      {
+        "text": "Menu",
+        "ariaLabel": "Open menu"
+      },
+      {
+        "text": "Live now",
+        "ariaLabel": null
+      },
+      {
+        "text": "Agents",
+        "ariaLabel": null
+      },
+      {
+        "text": "Websites",
+        "ariaLabel": null
+      },
+      {
+        "text": "Briefs",
+        "ariaLabel": null
+      },
+      {
+        "text": "Live now",
+        "ariaLabel": null
+      },
+      {
+        "text": "Agents",
+        "ariaLabel": null
+      },
+      {
+        "text": "Websites",
+        "ariaLabel": null
+      },
+      {
+        "text": "Briefs",
+        "ariaLabel": null
+      },
+      {
+        "text": "",
+        "ariaLabel": "Show testimonial from Tanzeela Aqif"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Show testimonial from Hammad Riaz"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Show testimonial from Muhammad Omer"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Go to the Previous Month"
+      },
+      {
+        "text": "",
+        "ariaLabel": "Go to the Next Month"
+      },
+      {
+        "text": "1",
+        "ariaLabel": "Sunday, November 1st, 2026"
+      }
+    ],
+    "animations": [
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "DIV"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "P"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "H1"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "P"
+      },
+      {
+        "playState": "finished",
+        "duration": 850,
+        "target": "DIV"
+      },
+      {
+        "playState": "finished",
+        "duration": 1000,
+        "target": "DIV"
+      },
+      {
+        "playState": "running",
+        "duration": 1000,
+        "target": "SPAN"
+      },
+      {
+        "playState": "running",
+        "duration": 1000,
+        "target": "SPAN"
+      },
+      {
+        "playState": "running",
+        "duration": 1000,
+        "target": "SPAN"
+      },
+      {
+        "playState": "running",
+        "duration": 32000,
+        "target": "DIV"
+      }
+    ]
+  },
+  {
+    "label": "reference-mobile-menu",
+    "dialog": 0,
+    "buttons": [
+      {
+        "label": "Close menu",
+        "expanded": "true"
+      },
+      {
+        "label": null,
+        "expanded": null
+      },
+      {
+        "label": null,
+        "expanded": null
+      },
+      {
+        "label": null,
+        "expanded": null
+      },
+      {
+        "label": null,
+        "expanded": null
+      },
+      {
+        "label": null,
+        "expanded": null
+      },
+      {
+        "label": null,
+        "expanded": null
+      },
+      {
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "content": "BleckBl\nMenu\nServices\nProcess\nIdeas\nClients\nFAQs\nAppointment\nBook an appointment\nEST. 2024\nClients worldwide\n\nWEBSITES & AI AGENTS FOR GROWING BRANDS\n\nWebsites and AI agents that ship.\n\nBleckBl designs and launches websites and AI agents brands can rely on. Fast on mobile, clear in taste, and useful after launch day.\n\nBook an appointment\nSee our services\n\nIN PRODUCTION\n\nAgent answering. Site shipping.\nLive now\nAgents\nWebsites\nBriefs\n\nYour agent\n\nSupport · brand voice\n\nOnline\n\nYour site\n\nyoursite.com\n\nLive\nB\n\nStudio\n\nWork\nServices\nAbout\nStart\nWebsites built for\nevery\nbrand\nlaunch\nproduct\ncampaign\nthat ships.\n\nFast on mobile, clear in taste, and ready for the brands that need to move.\n\nStart a project\nSee the work\n\nBRAND PARTNERS\n\nSERVICES\n\nWhat we build so your brand actually moves.\n\nTwo core offerings, websites and AI agents, wrapped in product craft so every release feels intentional.\n\nWEBSITES\n\nWebsites that convert\n\nAI AGENTS\n\nAI agents that work\n\nPRODUCT\n\nProduct & platforms\n\nPARTNERSHIP\n\nOngoing partnership\n\nPROCESS\n\nFrom brief to launch, without the mystery.\n\nFour clear stages, tight feedback loops, and shipping discipline from day one.\n\n01\n\nScope the outcome\n\nWe align on the business result first. Leads, launches, agent coverage. Then we shape a lean brief that keeps the build honest.\n\n02\n\nDesign the system\n\nStructure, visual language, and agent flows are designed together so the product feels coherent from first scroll to first automation.\n\n03\n\nBuild & harden\n\nWe ship"
+  },
+  {
+    "label": "reference-footer-details",
+    "styles": []
+  }
+]
